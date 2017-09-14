@@ -6,6 +6,10 @@ Stand Up 1 Documentation:
 https://docs.google.com/document/d/1Bii7ALeAO7DhiQbKRlru_QoWlBiBJ0xT5m2G_RwKEFM/edit
 
 * * *
+Parkit Survey Link:
+http://uqbel.az1.qualtrics.com/jfe/form/SV_79dmQyZnRtcxhXL
+
+* * *
 
 # Project Proposal
 
