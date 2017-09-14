@@ -1,9 +1,11 @@
 # Parkit
-Team Dominators - Parkit
-Parkit.
+Team Dominators - Parkit.
 
 * * *
+Stand Up 1 Documentation:
+https://docs.google.com/document/d/1Bii7ALeAO7DhiQbKRlru_QoWlBiBJ0xT5m2G_RwKEFM/edit
 
+* * *
 
 Project Proposal
 
