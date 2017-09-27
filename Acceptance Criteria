@@ -28,7 +28,6 @@ Given: A new user of the parkIt application
 When: I access the signup: Your details screen and fill in my unique details 
 Then: I want to be able to know if the information added into the fields is valid (no incorrect spelling)
 
-Credit Card Details 
 Given: A new user of the parkIt application 
 When: I access the signup: credit card details 
 Then: I want to be able to enter in my credit card details so that I don’t have to repeatedly add them in when I lease a car park 
