@@ -1,0 +1,70 @@
+# Acceptance Criteria
+
+**Given:** a new user to parkit
+**When:** I enter the application for the first time 
+**Then:** I want to be able to easily and efficiently sign up to the application so I don’t have to add my details repeatedly when I access the application 
+
+**Given:** a user that has used the park it application before 
+When: they open up the ParkIt login page 
+Then: they want to be able to access there information easily that they used recently. 
+
+Given: a user of the ParkIt application
+When: they sign up to the application through the signup pages 
+Then: they want to be able to have a unique identifier to access their information privately and make sure no one else has the personal information 
+
+Given: A new user of the parkIt application 
+When: I access the signup: Your details screen 
+Then: I want to be able to provide accurate information about myself that I can remember when I return to the application 
+
+Given: A new user to the parkie application
+When:  I access the signup: Your details screen 
+Then: I want to be able to enter in a valid email address to retrieve important information about the parkit application and retrieve vital information like receipts and payment details. 
+
+Given: A new user of the parkIt application 
+When: I access the signup: Your details screen 
+Then: I want to be able to provide my car details (make and number plate details) so that the person leasing the car park knows that I am the correct person parking in their car park
+
+Given: A new user of the parkIt application 
+When: I access the signup: Your details screen and fill in my unique details 
+Then: I want to be able to know if the information added into the fields is valid (no incorrect spelling)
+
+Credit Card Details 
+Given: A new user of the parkIt application 
+When: I access the signup: credit card details 
+Then: I want to be able to enter in my credit card details so that I don’t have to repeatedly add them in when I lease a car park 
+
+Given: A new user of the parkIt application 
+When: I access the signup: credit card details 
+Then: I want to know that my information will be stored correctly and protected my Australian Consumer Law
+
+Given: a user of the parkit application 
+When: I passed the login page of the application 
+Then: I want to be able to easily lease a car park or lease my park out. 
+
+Given: a user of the parkit application 
+When: I passed the login page of the application and I search for a location for where I want to park
+Then: I want to be shown what car parks are available in that area so I that I have the choice to pick the right car park for me (should include a photo when clicked) 
+
+Given: a user of the parkit application 
+When: I passed the login page of the application and I search for a location for where I want to park and picked a car park
+Then: I want to shown how to get to the location of the car park through directions and be shown a photo of the correct position of my car park
+
+Given: a user of the parkit application 
+When: I passed the login page of the application and I search for a location for where I want to park and picked a car park
+Then: I want to be able specify the duration of time that I am planning to park at the car park so that I get charged correctly 
+
+Given: a user of the parkit application 
+When: I lease out my car park to a user of the parkit application
+Then: I want to be told when someone is wanting to park at my car park location so that I can prepare for their arrival 
+
+Given: a user of the parkit application 
+When: I lease out my car park to a user of the parkit application
+Then: to know the car details of the user so that I know it is the correct person parking in my park 
+
+Given: a user of the parkit application 
+When: I lease a car park through the application
+Then: I want to able to have the option to extend or reduce my lease
+
+Given: a user of the parkit application 
+When: I lease a car park through the application
+Then: I want to be provided with any notes about the car park so that I don’t get confused upon arrival to the car park 
