@@ -1,10 +1,10 @@
-# Acceptance Criteria
+Acceptance Criteria
 
-**Given:** a new user to parkit
-**When:** I enter the application for the first time 
-**Then:** I want to be able to easily and efficiently sign up to the application so I don’t have to add my details repeatedly when I access the application 
+Given: a new user to parkit
+When: I enter the application for the first time 
+Then: I want to be able to easily and efficiently sign up to the application so I don’t have to add my details repeatedly when I access the application 
 
-**Given:** a user that has used the park it application before 
+Given:* a user that has used the park it application before 
 When: they open up the ParkIt login page 
 Then: they want to be able to access there information easily that they used recently. 
 
