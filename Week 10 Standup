@@ -1,13 +1,16 @@
+
 Complete Before Stand Up 2 
 
 Finish Low-Fidelity Mockup - Freya & Rory 
 Competitor Analyse - Jarrod? 
-Analyse Interviews - Freya
 User Flow Diagram - Freya
+2 x Persona - Freya 
+1 x Persona - Jarrod 
+1 x Persona - Alexander
 Low-fi Mockup user testing - Freya & Rory (Complete 2-3 More Interviews) 
 Market Analysis - Sam?
 Survey Data Analysis - Alexander
-Persona - Alexander
+
 
 --- Stretch goals
 Start High Fidelity Mockup - Freya 
@@ -20,3 +23,19 @@ Complete Acceptance Criteria - Freya
 High Fidelity Mockup 
 Marketing Material 
 Value Proposition Mapping 
+
+Problem Space
+The main problem that we had during the user testing session was confustion around the functionality of the application and how it will be perceived by the audience. Although the mockups worked well, we struggled to provide a differienting factor to our application compared to other applications of the market. The group deliberated 2 different concepts in which they deliberated and decided upon. 
+These are the pros and cons of the different ideas. 
+Booking style and owners set rates:
+  + Better for owners and they're the supply side of the app
+  + Allows people to book days in advance
+  - Basically Kerb and we need a point of difference
+  - Owners can set rates really high which would make drivers less inclined to use it
+
+No booking and pay a rate as you go:
+  + Gives the app the control of rates (can still incentivise owners by putting rates up in areas where we need more parks)
+  + Makes the app different to Kerb(it's a more agile version of Kerb)
+  - Have to solve the issue of not directing people to parks that will be unavailable soon
+
+After discussing both ideas the group decided to go with the No booking and pay a rate as you go system that will allow more of a point of difference within the current market. To further develop this idea, we plan on creating a updated user flow diagram and finalised functionality plan to get this idea working for our high-fidelity mockups. 
