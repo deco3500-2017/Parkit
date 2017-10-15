@@ -15,10 +15,10 @@
 
 <body>
 
+<!-- Form Group for Login -->
 <div class="container" id="login-container">
 	<div class="col-xs-12">
 		<h1 class="text-center">Parkit.</h1>
-		<!-- Form Group for Login -->
 		<form>
 			<div class="form-group">
 				<label class="sr-only" for="login-email">Email address:</label>
@@ -44,8 +44,8 @@
 	</div>
 </div>
 
+<!-- Form Group for First Registration Step -->
 <div class="container text-center" id="registration-container">
-	<!-- Form Group for First Registration Step -->
 	<h1 class="text-center">Your Details</h1>
 	<form>
 	<div class="form-group">
@@ -79,10 +79,25 @@
 	<button onclick="loadThanks()" type="submit" class="btn btn-default text-center">Next</button>
 </div>
 
+<!-- Thanking the user after signup -->
 <div class="container text-center" id="thanks-container">
 	<h1>Thanks for signing up!</h1>
 	<p>We'll need to get more details later, but for now you're good to go!</p>
 	<p id="redirecting">Redirecting you automatically, or click <a onclick="loadOptions()">here</a>
+</div>
+
+<!-- First options on 'app' open -->
+<div class="container text-center" id="choice-container">
+	<h1>Welcome</h1>
+	<p>What would you like to do today?</p>
+	<div class="row" id="choice-buttons">
+		<div class="col-xs-6">
+			<button onclick="mapRedirect()" class="btn btn-default">Rent a Carspace</button>
+		</div>
+		<div class="col-xs-6">
+			<button class="btn btn-default">Lease out my Carspace</button>
+		</div>
+	</div>
 </div>
 
 </body>
