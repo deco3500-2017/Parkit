@@ -1,3 +1,5 @@
+/* Universal settings */
+
 html,body{ 
 	height:100%; 
 }
@@ -7,6 +9,13 @@ html,body{
 	width: 100%;
 }
 
+/* Registration settings */
+
+#form-container{
+	margin-top: 15vh;
+}
+
+/* GoogleMap Specific Settings */
 
 #pac-input{
 	height: 10%;
