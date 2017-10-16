@@ -13,11 +13,12 @@ function loadThanks(){
 
 /* Hides login page & Loads the registration form */
 function loadOptions(){
+    document.getElementById("login-container").style.display = "none";
     document.getElementById("thanks-container").style.display = "none";
     document.getElementById("choice-container").style.display = "block";
 }
 
 /* Redirects the user to the google maps page */
 function mapRedirect(){
-    window.location.href = "index.php";
+    window.location.href = "rent.php";
 }
