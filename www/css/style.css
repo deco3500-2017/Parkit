@@ -1,7 +1,7 @@
 /* Universal settings */
 
 html,body{ 
-	height:100%; 
+	height:100%;
 }
 
 .container{
@@ -42,17 +42,41 @@ input[type="number"] {
     -moz-appearance: textfield;
 }
 
-/* GoogleMap Specific Settings */
+/* 'Main Page' Specific Settings */
+
+#nav{
+	height: 10%;
+}
+
+#hamburger{
+	height: 100%;
+}
+
+#hamburger-icon:hover{
+	cursor: pointer;
+}
 
 #pac-input{
-	height: 10%;
+	height: 100%;
 	width: 300px;
 	display: block;
 	margin: 0 auto;
 	padding: 5px;
 }
 
-#map{
-	height: 90%;
+#main-container{
+	height: 100%;
 	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#options-menu{
+	height: 100%;
+	display: none;
+	background-color: red;
+}
+
+#map{
+	height: 100%;
 }

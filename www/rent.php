@@ -14,16 +14,35 @@
 </head>
 
 <body>
-    <!-- Search Bar -->
-    <input id="pac-input" class="controls" type="text" placeholder="Search Box">
-    <!-- Google Maps Container -->
-    <div id="map"></div>
+    <!-- Navbar -->
+    <div class="row" id="nav">
+        <div class="col-xs-2 col-xs-offset-1" id="hamburger">
+            <a onclick="toggleMenu()"><img class="vertical-center" id="hamburger-icon" src="images/hamburger.png" alt="hamburger menu"></a>
+        </div>
+
+        <div class="col-xs-8" id="searchbar">
+            <input class="vertical-center" id="pac-input" class="controls" type="text" placeholder="Search Box">
+        </div>               
+    </div>
+
+
+    <!-- Options + Map container -->
+    <div class="row" id="main-container">
+
+        <!-- Options -->
+        <div class="col-xs-6" id="options-menu">
+        </div>
+        <!-- Map -->
+        <div class="col-xs-12" id="map"
+        ></div>
+    </div>
+
     
     <!-- Creates the Map Object -->
     <script src="js/maps.js"></script>
     <!-- Google API Key -->
     <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAhfQaHai0ydMXiqkKdszmOUSA9qZdsEx0&callback=initMap&libraries=places&callback=initAutocomplete">
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAhfQaHai0ydMXiqkKdszmOUSA9qZdsEx0&callback=initMap&libraries=places&callback=initAutocomplete">
     </script>    
 </body>
 
