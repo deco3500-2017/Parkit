@@ -20,21 +20,43 @@
             <a onclick="toggleMenu()"><img class="vertical-center" id="hamburger-icon" src="images/hamburger.png" alt="hamburger menu"></a>
         </div>
 
-        <div class="col-xs-8" id="searchbar">
+        <div class="col-xs-6 col-xs-offset-3" id="searchbar">
             <input class="vertical-center" id="pac-input" class="controls" type="text" placeholder="Search Box">
         </div>               
     </div>
 
 
-    <!-- Options + Map container -->
+    <!-- Main Container -->
     <div class="row" id="main-container">
 
-        <!-- Options -->
+        <!-- Options container -->
         <div class="col-xs-6" id="options-menu">
+
+            <div class="col-xs-12" id="user-profile">
+                <img src="images/profile.png" alt="profile picture placeholder">
+                <div class="col-xs-8 col-xs-offset-2" id="user-id">
+                    <p>Test User</p>
+                    <p>email@address.com</p>
+                </div>
+            </div>
+
+            <div class="col-xs-12" id="options">
+                <ul>
+                    <a onclick=""><li>Favourites</li></a>
+                    <a onclick=""><li>History</li></a>
+                    <a onclick=""><li>Your Cars</li></a>
+                    <a onclick=""><li>Your Parks</li></a>
+                    <a onclick=""><li>Credit Card Details</li></a>
+                    <a onclick=""><li>Payment Details</li></a>
+                    <a onclick=""><li>Lease Summary</li></a>
+                    <a onclick=""><li>Log Out</li></a>
+                </ul>
+            </div>
         </div>
-        <!-- Map -->
-        <div class="col-xs-12" id="map"
-        ></div>
+
+        <!-- Map container -->
+        <div class="col-xs-12" id="map">
+        </div>
     </div>
 
     

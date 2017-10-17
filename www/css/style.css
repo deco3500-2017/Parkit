@@ -2,12 +2,21 @@
 
 html,body{ 
 	height:100%;
+	overflow: hidden;
 }
 
 .container{
 	height: 100%;
 	width: 100%;
 }
+
+.vertical-center {
+	min-height: 10%; 
+	min-height: 10vh;   
+  
+	display: flex;
+	align-items: center;
+  }
 
 /* Registration settings */
 
@@ -46,6 +55,7 @@ input[type="number"] {
 
 #nav{
 	height: 10%;
+	background-color: #29ABE2;
 }
 
 #hamburger{
@@ -56,27 +66,75 @@ input[type="number"] {
 	cursor: pointer;
 }
 
+#searchbar{
+	padding-left: 0px;
+}
+
 #pac-input{
 	height: 100%;
 	width: 300px;
 	display: block;
 	margin: 0 auto;
 	padding: 5px;
+	background-color: #EDE8E8;
 }
 
 #main-container{
 	height: 100%;
 	width: 100%;
 	margin: 0;
-	padding: 0;
 }
 
 #options-menu{
 	height: 100%;
 	display: none;
-	background-color: red;
+	padding: 0;
+	background-color: #EDE8E8;
+}
+
+#user-profile{
+	height: 100px;
+	padding: 0;
+	background-color: #29ABE2;
+}
+
+#user-profile img{
+	display: block;
+	margin: 0 auto;
+}
+
+#user-id{
+	position: absolute;
+	bottom: 0px;
+	text-align: center;
+}
+
+#user-id p{
+	margin-top:2px;
+	margin-bottom: 2px;
+	color: #EDE8E8;
+}
+
+
+#options > a{
+	text-align: center;
+	margin-left: 0;
+}
+
+#options ul{
+	list-style-type: none;
+}
+
+#options li{
+	font-weight: bold;
+	text-align: center;
+}
+
+#options li:hover{
+	cursor: pointer;
 }
 
 #map{
 	height: 100%;
+	padding: 0;
 }
