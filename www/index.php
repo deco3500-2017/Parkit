@@ -37,7 +37,7 @@
 					<a href="#">Forgotten your Password?</a>
 				</div>
 				<div class="col-xs-2">
-					<button onclick="loadOptions()" type="submit" class="btn btn-default pull-right">Submit</button>
+					<button onclick="mapRedirect()" type="submit" class="btn btn-default pull-right">Submit</button>
 				</div>				
 			</div>			
 		</form> 

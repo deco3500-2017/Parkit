@@ -27,7 +27,6 @@ function initAutocomplete() {
 		var markers = xml.documentElement.getElementsByTagName('marker');
 		Array.prototype.forEach.call(markers, function(markerElem) {
 		var id = markerElem.getAttribute('id');
-		var name = markerElem.getAttribute('name');
 		var address = markerElem.getAttribute('address');
 		var type = markerElem.getAttribute('type');
 		var point = new google.maps.LatLng(
@@ -38,14 +37,21 @@ function initAutocomplete() {
 		//Sets styling for the content window on marker click
 		var infowincontent = document.createElement('div');
 		var strong = document.createElement('strong');
-		strong.textContent = name
 		infowincontent.appendChild(strong);
 		infowincontent.appendChild(document.createElement('br'));
 
+		//Writes the address to a text element for each marker
 		var text = document.createElement('text');
 		text.textContent = address
 		infowincontent.appendChild(text);
-		
+
+		//Creates the button for each marker
+		var bookButton = document.createElement('button');
+		var buttonText = document.createTextNode('Book Now');
+		bookButton.appendChild(buttonText);
+		infowincontent.appendChild(document.createElement('br'));
+		infowincontent.appendChild(bookButton);
+	
 		//Draws the marker to the map
 		var marker = new google.maps.Marker({
 			map: map,
@@ -105,7 +111,6 @@ function initAutocomplete() {
 		markers.push(new google.maps.Marker({
 		  map: map,
 		  icon: icon,
-		  title: place.name,
 		  position: place.geometry.location
 		}));
 
