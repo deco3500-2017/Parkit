@@ -1,4 +1,6 @@
-/* Universal styling */
+/* * * * * * * * * * * * * * * * */
+/* Universal Styling            */
+/* * * * * * * * * * * * * * * */
 
 html,body{ 
 	height:100%;
@@ -51,7 +53,11 @@ input[type="number"] {
     -moz-appearance: textfield;
 }
 
-/* 'Main Page' Nav styling*/
+/* * * * * * * * * * * * * * * * */
+/* Main 'page' rent.php         */
+/* * * * * * * * * * * * * * * */
+
+/* Main page navigation */
 
 #nav{
 	height: 10%;
@@ -79,7 +85,8 @@ input[type="number"] {
 	background-color: #EDE8E8;
 }
 
-/* 'Main Page' content styling */
+
+/* Main page map content */
 
 #main-container{
 	height: 100%;
@@ -92,7 +99,9 @@ input[type="number"] {
 	padding: 0;
 }
 
-/* Options Context Menu */
+/* * * * * * * * * * * * * * * * */
+/* Options Context Menu         */
+/* * * * * * * * * * * * * * * */
 
 #options-menu{
 	height: 100%;
@@ -145,3 +154,44 @@ input[type="number"] {
 	cursor: pointer;
 }
 
+/* * * * * * * * * * * * * * * * */
+/* Sub Pages from options menu  */
+/* * * * * * * * * * * * * * * */
+
+
+#sub-menu{
+	display: none;
+}
+
+#sub-menu-header{
+	background-color: #29ABE2;
+	height: 10%;
+	text-align: center;
+	max-height: 75px;
+}
+
+#sub-menu-footer{
+	background-color: #29ABE2;
+	height: 10%;
+	bottom: 0;
+}
+
+#logo{
+	max-height: 70px;
+	float: left;
+	display: block;
+	margin: 0 auto;
+	margin-left: 30px;
+}
+
+#sub-menu-title{
+	color: #EDE8E8;
+	position: relative;
+	margin: 0px auto 0px auto;
+	line-height: 70px;
+	max-width: 400px;
+}
+
+#favourites{
+	display: none;
+}

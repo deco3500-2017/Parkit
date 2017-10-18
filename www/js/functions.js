@@ -40,3 +40,27 @@ function toggleMenu(){
         document.getElementById("map").className = "col-xs-12";
     }
 }
+
+
+/* Hides all of the sub menu divs so it does not have to be done each function */
+function hideMenuDivs(){
+    document.getElementById("favourites").style.display = "none";
+    document.getElementById("history").style.display = "none";
+    document.getElementById("your-cars").style.display = "none";
+    document.getElementById("your-parks").style.display = "none";
+    document.getElementById("credit-details").style.display = "none";
+    document.getElementById("payment-details").style.display = "none";
+    document.getElementById("lease-summary").style.display = "none";
+}
+
+/* Loads the favourites 'page' */
+function loadFavourites(){
+        /* Hides the other content */
+        document.getElementById("nav").style.display = "none";
+        document.getElementById("main-container").style.display = "none";
+        hideMenuDivs();
+        /* Displays the correct content */
+        document.getElementById("sub-menu").style.display = "block";
+        document.getElementById("sub-menu-title").innerHTML = "Your Favourites";
+        document.getElementById("favourites").style.display = "block";
+}

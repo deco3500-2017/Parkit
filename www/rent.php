@@ -42,7 +42,7 @@
 
             <div class="col-xs-12" id="options">
                 <ul>
-                    <a onclick=""><li>Favourites</li></a>
+                    <a onclick="loadFavourites()"><li>Favourites</li></a>
                     <a onclick=""><li>History</li></a>
                     <a onclick=""><li>Your Cars</li></a>
                     <a onclick=""><li>Your Parks</li></a>
@@ -59,6 +59,49 @@
         </div>
     </div>
 
+    <div class="row" id="sub-menu">
+
+        <!-- Submenu Header-->
+        <div class="navbar navbar-default" id="sub-menu-header">
+            <img id="logo" src="images/logo.png" alt="Parkit Logo">           
+            <h1 id="sub-menu-title">Parkit</h1>
+        </div>
+        <!-- Favourites -->
+        <div class="row" id="favourites">
+            <div class="col-xs-10 col-xs-offset-2">
+                <p>You have no favourites</p>
+            </div>
+        </div>
+
+        <!-- History -->
+        <div class="row" id="history">
+        </div>
+
+        <!-- Your Cars -->
+        <div class="row" id="your-cars">
+        </div>
+
+        <!-- Your Parks -->
+        <div class="row" id="your-parks">
+        </div>
+
+        <!-- Credit Card Details -->
+        <div class="row" id="credit-details">
+        </div>
+
+        <!-- Payment Details -->
+        <div class="row" id="payment-details">
+        </div>
+
+        <!-- Lease Summary-->
+        <div class="row" id="lease-summary">
+        </div>
+
+        <!-- Bottom Bar-->
+        <div class="nav navbar-fixed-bottom" id="sub-menu-footer">
+            <a href="rent.php">Temp Link to go back</a>
+        </div>
+    </div>
     
     <!-- Creates the Map Object -->
     <script src="js/maps.js"></script>
