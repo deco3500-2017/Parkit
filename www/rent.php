@@ -43,12 +43,12 @@
             <div class="col-xs-12" id="options">
                 <ul>
                     <a onclick="loadFavourites()"><li>Favourites</li></a>
-                    <a onclick=""><li>History</li></a>
-                    <a onclick=""><li>Your Cars</li></a>
-                    <a onclick=""><li>Your Parks</li></a>
-                    <a onclick=""><li>Credit Card Details</li></a>
-                    <a onclick=""><li>Payment Details</li></a>
-                    <a onclick=""><li>Lease Summary</li></a>
+                    <a onclick="loadHistory()"><li>History</li></a>
+                    <a onclick="loadCars()"><li>Your Cars</li></a>
+                    <a onclick="loadParks()"><li>Your Parks</li></a>
+                    <a onclick="loadCredit()"><li>Credit Card Details</li></a>
+                    <a onclick="loadPayment()"><li>Payment Details</li></a>
+                    <a onclick="loadLease()"><li>Lease Summary</li></a>
                     <a onclick=""><li>Log Out</li></a>
                 </ul>
             </div>
@@ -75,26 +75,32 @@
 
         <!-- History -->
         <div class="row" id="history">
+            <p>You have no history</p>
         </div>
 
         <!-- Your Cars -->
         <div class="row" id="your-cars">
+            <p>You have no cars</p>
         </div>
 
         <!-- Your Parks -->
         <div class="row" id="your-parks">
+            <p>You have no parks</p>
         </div>
 
         <!-- Credit Card Details -->
         <div class="row" id="credit-details">
+            <p>You have no details</p>
         </div>
 
         <!-- Payment Details -->
         <div class="row" id="payment-details">
+            <p>You have no details still</p>
         </div>
 
         <!-- Lease Summary-->
         <div class="row" id="lease-summary">
+            <p>Your lease summary</p>
         </div>
 
         <!-- Bottom Bar-->
