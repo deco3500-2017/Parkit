@@ -85,7 +85,59 @@
 
         <!-- Your Parks -->
         <div class="row" id="your-parks">
-            <p>You have no parks</p>
+            <div class="col-xs-10 col-xs-offset-1 sub-menu-container">
+                <!-- Each Park -->
+                <div class="row list-item">
+                    <div class="col-xs-3 image-div">
+                        <img src="images/carparks/empty-lot.jpg" alt="carpark image">
+                    </div>
+                    <div class="col-xs-9 list-text">
+                        <p class="park-owner">Test User</p>
+                        <p class="park-description">Cheap parking super close to the city</p>
+                        <p class="park-price">$20</p>
+                        <img class="star-filled" alt="Star" src="images/star-filled.png">
+                        <img class="star-filled" alt="Star" src="images/star-filled.png">
+                        <img class="star-filled" alt="Star" src="images/star-filled.png">
+                        <img class="star-filled" alt="Star" src="images/star-filled.png">
+                        <img class="star-unfilled" alt="Star Unfilled" src="images/star-unfilled.png">
+                    </div>
+                    <img class="favourite" src="images/favourite.png" alt="Favourite Icon">
+                </div>
+                <!-- Each Park -->
+                <div class="row list-item">
+                    <div class="col-xs-3 image-div">
+                        <img src="images/carparks/empty-lot.jpg" alt="carpark image">
+                    </div>
+                    <div class="col-xs-9 list-text">
+                        <p class="park-owner">Test User</p>
+                        <p class="park-description">Cheap parking super close to the city</p>
+                        <p class="park-price">$20</p>
+                        <img class="star-filled" alt="Star" src="images/star-filled.png">
+                        <img class="star-filled" alt="Star" src="images/star-filled.png">
+                        <img class="star-filled" alt="Star" src="images/star-filled.png">
+                        <img class="star-filled" alt="Star" src="images/star-filled.png">
+                        <img class="star-unfilled" alt="Star Unfilled" src="images/star-unfilled.png">
+                    </div>
+                    <img class="favourite" src="images/favourite.png" alt="Favourite Icon">
+                </div>
+                <!-- Each Park -->
+                <div class="row list-item">
+                    <div class="col-xs-3 image-div">
+                        <img src="images/carparks/empty-lot.jpg" alt="carpark image">
+                    </div>
+                    <div class="col-xs-9 list-text">
+                        <p class="park-owner">Test User</p>
+                        <p class="park-description">Cheap parking super close to the city</p>
+                        <p class="park-price">$20</p>
+                        <img class="star-filled" alt="Star" src="images/star-filled.png">
+                        <img class="star-filled" alt="Star" src="images/star-filled.png">
+                        <img class="star-filled" alt="Star" src="images/star-filled.png">
+                        <img class="star-filled" alt="Star" src="images/star-filled.png">
+                        <img class="star-unfilled" alt="Star Unfilled" src="images/star-unfilled.png">
+                    </div>
+                    <img class="favourite" src="images/favourite.png" alt="Favourite Icon">
+                </div>                              
+            </div>
         </div>
 
         <!-- Credit Card Details -->
@@ -102,65 +154,73 @@
         <div class="row" id="lease-summary">
             <div class="col-xs-10 col-xs-offset-1 sub-menu-container">
 
-                 <!-- Each lease Item -->
-                <div class="row list-item">
-                    <div class="col-xs-3 image-div">
-                        <img src="images/carparks/empty-lot.jpg" alt="carpark image">
-                    </div>
-                    <div class="col-xs-9 list-text">
-                        <p class="park-owner">Jo Smith</p>
-                        <p class="park-description">Cheap parking super close to the city</p>
-                        <p class="park-price">$20</p>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                    </div>
+            <!-- Each lease Item -->
+            <div class="row list-item">
+                <div class="col-xs-3 image-div">
+                    <img src="images/carparks/empty-lot.jpg" alt="carpark image">
                 </div>
-                <!-- Each lease Item -->
-                <div class="row list-item">
-                    <div class="col-xs-3 image-div">
-                        <img src="images/carparks/empty-lot.jpg" alt="carpark image">
-                    </div>
-                    <div class="col-xs-9 list-text">
-                        <p class="park-owner">Jo Smith</p>
-                        <p class="park-description">Cheap parking super close to the city</p>
-                        <p class="park-price">$20</p>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                    </div>
+                <div class="col-xs-9 list-text">
+                    <p class="park-owner">Jo Smith</p>
+                    <p class="park-description">Cheap parking super close to the city</p>
+                    <p class="park-price">$20</p>
+                    <img class="star-filled" alt="Star" src="images/star-filled.png">
+                    <img class="star-filled" alt="Star" src="images/star-filled.png">
+                    <img class="star-filled" alt="Star" src="images/star-filled.png">
+                    <img class="star-filled" alt="Star" src="images/star-filled.png">
+                    <img class="star-unfilled" alt="Star Unfilled" src="images/star-unfilled.png">
                 </div>
-                 <!-- Each lease Item -->
-                <div class="row list-item">
-                    <div class="col-xs-3 image-div">
-                        <img src="images/carparks/empty-lot.jpg" alt="carpark image">
-                    </div>
-                    <div class="col-xs-9 list-text">
-                        <p class="park-owner">Jo Smith</p>
-                        <p class="park-description">Cheap parking super close to the city</p>
-                        <p class="park-price">$20</p>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                    </div>
+                <img class="favourite" src="images/favourite.png" alt="Favourite Icon">
+            </div>
+            <!-- Each lease Item -->
+            <div class="row list-item">
+                <div class="col-xs-3 image-div">
+                    <img src="images/carparks/empty-lot.jpg" alt="carpark image">
                 </div>
+                <div class="col-xs-9 list-text">
+                    <p class="park-owner">Jo Smith</p>
+                    <p class="park-description">Cheap parking super close to the city</p>
+                    <p class="park-price">$20</p>
+                    <img class="star-filled" alt="Star" src="images/star-filled.png">
+                    <img class="star-filled" alt="Star" src="images/star-filled.png">
+                    <img class="star-filled" alt="Star" src="images/star-filled.png">
+                    <img class="star-filled" alt="Star" src="images/star-filled.png">
+                    <img class="star-unfilled" alt="Star Unfilled" src="images/star-unfilled.png">
+                </div>
+                <img class="favourite" src="images/favourite.png" alt="Favourite Icon">
+            </div>
                  <!-- Each lease Item -->
-                <div class="row list-item">
-                    <div class="col-xs-3 image-div">
-                        <img src="images/carparks/empty-lot.jpg" alt="carpark image">
-                    </div>
-                    <div class="col-xs-9 list-text">
-                        <p class="park-owner">Jo Smith</p>
-                        <p class="park-description">Cheap parking super close to the city</p>
-                        <p class="park-price">$20</p>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                    </div>
+            <div class="row list-item">
+                <div class="col-xs-3 image-div">
+                     <img src="images/carparks/empty-lot.jpg" alt="carpark image">
+                </div>
+                <div class="col-xs-9 list-text">
+                    <p class="park-owner">Jo Smith</p>
+                    <p class="park-description">Cheap parking super close to the city</p>
+                    <p class="park-price">$20</p>
+                    <img class="star-filled" alt="Star" src="images/star-filled.png">
+                    <img class="star-filled" alt="Star" src="images/star-filled.png">
+                    <img class="star-filled" alt="Star" src="images/star-filled.png">
+                    <img class="star-filled" alt="Star" src="images/star-filled.png">
+                    <img class="star-unfilled" alt="Star Unfilled" src="images/star-unfilled.png">
+                </div>
+                 <img class="favourite" src="images/favourite.png" alt="Favourite Icon">
+            </div>
+            <!-- Each lease Item -->
+            <div class="row list-item">
+                <div class="col-xs-3 image-div">
+                    <img src="images/carparks/empty-lot.jpg" alt="carpark image">
+                </div>
+                <div class="col-xs-9 list-text">
+                    <p class="park-owner">Jo Smith</p>
+                    <p class="park-description">Cheap parking super close to the city</p>
+                    <p class="park-price">$20</p>
+                    <img class="star-filled" alt="Star" src="images/star-filled.png">
+                    <img class="star-filled" alt="Star" src="images/star-filled.png">
+                    <img class="star-filled" alt="Star" src="images/star-filled.png">
+                    <img class="star-filled" alt="Star" src="images/star-filled.png">
+                    <img class="star-unfilled" alt="Star Unfilled" src="images/star-unfilled.png">
+                </div>
+                    <img class="favourite" src="images/favourite.png" alt="Favourite Icon">
                 </div>
             </div>
         </div>
