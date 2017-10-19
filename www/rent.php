@@ -100,7 +100,69 @@
 
         <!-- Lease Summary-->
         <div class="row" id="lease-summary">
-            <p>Your lease summary</p>
+            <div class="col-xs-10 col-xs-offset-1 sub-menu-container">
+
+                 <!-- Each lease Item -->
+                <div class="row list-item">
+                    <div class="col-xs-3 image-div">
+                        <img src="images/carparks/empty-lot.jpg" alt="carpark image">
+                    </div>
+                    <div class="col-xs-9 list-text">
+                        <p class="park-owner">Jo Smith</p>
+                        <p class="park-description">Cheap parking super close to the city</p>
+                        <p class="park-price">$20</p>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                    </div>
+                </div>
+                <!-- Each lease Item -->
+                <div class="row list-item">
+                    <div class="col-xs-3 image-div">
+                        <img src="images/carparks/empty-lot.jpg" alt="carpark image">
+                    </div>
+                    <div class="col-xs-9 list-text">
+                        <p class="park-owner">Jo Smith</p>
+                        <p class="park-description">Cheap parking super close to the city</p>
+                        <p class="park-price">$20</p>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                    </div>
+                </div>
+                 <!-- Each lease Item -->
+                <div class="row list-item">
+                    <div class="col-xs-3 image-div">
+                        <img src="images/carparks/empty-lot.jpg" alt="carpark image">
+                    </div>
+                    <div class="col-xs-9 list-text">
+                        <p class="park-owner">Jo Smith</p>
+                        <p class="park-description">Cheap parking super close to the city</p>
+                        <p class="park-price">$20</p>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                    </div>
+                </div>
+                 <!-- Each lease Item -->
+                <div class="row list-item">
+                    <div class="col-xs-3 image-div">
+                        <img src="images/carparks/empty-lot.jpg" alt="carpark image">
+                    </div>
+                    <div class="col-xs-9 list-text">
+                        <p class="park-owner">Jo Smith</p>
+                        <p class="park-description">Cheap parking super close to the city</p>
+                        <p class="park-price">$20</p>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <!-- Bottom Bar-->

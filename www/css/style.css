@@ -18,7 +18,14 @@ html,body{
   
 	display: flex;
 	align-items: center;
-  }
+}
+
+.image-div img{
+	width: 100px;
+	height: 100px;
+	margin-left: -15px;
+}
+
 
 /* Registration styling */
 
@@ -192,6 +199,17 @@ input[type="number"] {
 	max-width: 400px;
 }
 
-#favourites{
-	display: none;
+.list-item{
+	border: 1px solid #29ABE2;
+	background-color: #EDE8E8;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.list-text p{
+	margin-bottom: 5px;
+}
+
+.park-owner{
+	font-weight: bold;
 }
