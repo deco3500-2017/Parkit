@@ -58,7 +58,7 @@
                     <a onclick="loadCredit()"><li>Credit Card Details</li></a>
                     <a onclick="loadPayment()"><li>Payment Details</li></a>
                     <a onclick="loadLease()"><li>Lease Summary</li></a>
-                    <a onclick=""><li>Log Out</li></a>
+                    <a href="index.php"><li>Log Out</li></a>
                 </ul>
             </div>
         </div>
@@ -77,14 +77,16 @@
         </div>
         <!-- Favourites -->
         <div class="row" id="favourites">
-            <div class="col-xs-10 col-xs-offset-2">
+            <div class="col-xs-10 col-xs-offset-1 sub-menu-container">
                 <p>You have no favourites</p>
             </div>
         </div>
 
         <!-- History -->
         <div class="row" id="history">
-            <p>You have no history</p>
+            <div class="col-xs-10 col-xs-offset-1 sub-menu-container">
+                <p>You have no history</p>
+            </div>
         </div>
 
         <!-- Your Cars -->
@@ -174,12 +176,16 @@
 
         <!-- Credit Card Details -->
         <div class="row" id="credit-details">
-            <p>You have no details</p>
+            <div class="col-xs-10 col-xs-offset-1 sub-menu-container">
+                <p>You have no details</p>
+            </div>
         </div>
 
         <!-- Payment Details -->
         <div class="row" id="payment-details">
-            <p>You have no details still</p>
+            <div class="col-xs-10 col-xs-offset-1 sub-menu-container">
+                <p>You have no details still</p>
+            </div>
         </div>
 
         <!-- Lease Summary-->
@@ -189,7 +195,7 @@
             <!-- Each lease Item -->
             <div class="row list-item">
                 <div class="col-xs-3 image-div">
-                    <img src="images/carparks/empty-lot.jpg" alt="carpark image">
+                    <img class="img-responsive" src="images/carparks/empty-lot.jpg" alt="carpark image">
                 </div>
                 <div class="col-xs-9 list-text">
                     <p class="park-owner">Jo Smith</p>
@@ -259,7 +265,18 @@
 
         <!-- Bottom Bar-->
         <div class="nav navbar-fixed-bottom" id="sub-menu-footer">
-            <a href="rent.php">Temp Link to go back</a>
+            <div class="row">
+                <div class="col-xs-offset-1"></div>
+                <div class="col-xs-4">
+                    <a href="rent.php"><img src="images/back.png" alt="Back Arrow"></a>
+                </div>
+                <div class="col-xs-4">
+                    <img src="images/circle.png" alt="Home">
+                </div>
+                <div class="col-xs-4">
+                    <img src="images/square.png" alt="Square">
+                </div>
+            </div>
         </div>
     </div>
     

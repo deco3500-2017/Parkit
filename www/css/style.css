@@ -75,6 +75,7 @@ input[type="number"] {
 #nav{
 	height: 10%;
 	background-color: #29ABE2;
+	max-height: 70px;
 }
 
 #nav-row{
@@ -99,7 +100,7 @@ input[type="number"] {
 
 #pac-input{
 	height: 50%;
-	width: 125px;
+	width: 90%;
 	display: block;
 	margin: 0 auto;
 	padding: 5px;
@@ -202,10 +203,20 @@ input[type="number"] {
 	max-height: 75px;
 }
 
+.sub-menu-container{
+	overflow: auto;
+}
+
 #sub-menu-footer{
 	background-color: #29ABE2;
 	height: 10%;
 	bottom: 0;
+	max-height: 70px;
+}
+
+#sub-menu-footer img{
+	display: block;
+	margin: 20px auto 0px auto;
 }
 
 #logo{
@@ -228,6 +239,7 @@ input[type="number"] {
 	border: 1px solid #29ABE2;
 	background-color: #EDE8E8;
 	position: relative;
+	margin-top: 5px;
 	margin-bottom: 10px;
 }
 
