@@ -47,35 +47,36 @@
 	<div class="container text-center" id="registration-container">
 		<h1 class="text-center">Your Details</h1>
 		<form>
-		<div class="form-group">
-			<label class="sr-only" for="first-Name">First Name:</label>
-			<input type="text" class="form-control" id="last-Name" placeholder="First Name:">
-		</div>
-		<div class="form-group">
-			<label class="sr-only" for="last-Name">Last Name:</label>
-			<input type="text" class="form-control" id="last-Name" placeholder="Last Name:">
-		</div>
-		<div class="form-group">
-			<label class="sr-only" for="Username">Username</label>
-			<input type="text" class="form-control" id="Username" placeholder="Username:">
-		</div>
-		<div class="form-group">
-			<label class="sr-only" for="register-email">Email address:</label>
-			<input type="email" class="form-control" id="register-email" placeholder="Email Address:">
-		</div>
-		<div class="form-group">
-			<label class="sr-only" for="mobile-number">Mobile Number:</label>
-			<input type="number" class="form-control" id="mobile-number" placeholder="Mobile Number:">
-		</div>
-		<div class="form-group">
-			<label class="sr-only" for="register-password">Password:</label>
-			<input type="password" class="form-control" id="register-password" placeholder="Password:">
-		</div>
-		<div class="form-group">
-			<label class="sr-only" for="register-password-again">Password:</label>
-			<input type="password" class="form-control" id="register-password-again" placeholder="Confirm Password:">
-		</div>
-		<button onclick="loadThanks()" type="submit" class="btn btn-default text-center">Next</button>
+			<div class="form-group">
+				<label class="sr-only" for="first-Name">First Name:</label>
+				<input type="text" class="form-control" id="last-Name" placeholder="First Name:">
+			</div>
+			<div class="form-group">
+				<label class="sr-only" for="last-Name">Last Name:</label>
+				<input type="text" class="form-control" id="last-Name" placeholder="Last Name:">
+			</div>
+			<div class="form-group">
+				<label class="sr-only" for="Username">Username</label>
+				<input type="text" class="form-control" id="Username" placeholder="Username:">
+			</div>
+			<div class="form-group">
+				<label class="sr-only" for="register-email">Email address:</label>
+				<input type="email" class="form-control" id="register-email" placeholder="Email Address:">
+			</div>
+			<div class="form-group">
+				<label class="sr-only" for="mobile-number">Mobile Number:</label>
+				<input type="number" class="form-control" id="mobile-number" placeholder="Mobile Number:">
+			</div>
+			<div class="form-group">
+				<label class="sr-only" for="register-password">Password:</label>
+				<input type="password" class="form-control" id="register-password" placeholder="Password:">
+			</div>
+			<div class="form-group">
+				<label class="sr-only" for="register-password-again">Password:</label>
+				<input type="password" class="form-control" id="register-password-again" placeholder="Confirm Password:">
+			</div>
+			<button onclick="loadThanks()" type="submit" class="btn btn-default text-center">Next</button>
+		</form>
 	</div>
 
 	<!-- Thanking the user after signup -->

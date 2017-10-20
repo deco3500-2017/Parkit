@@ -92,7 +92,6 @@
         <!-- Your Cars -->
         <div class="row" id="your-cars">
             <div class="col-xs-10 col-xs-offset-1 sub-menu-container">
-                <h2 class="text-center">Vehicles</h1>
                 <table class="table">
                     <thead>
                         <tr>
@@ -114,6 +113,29 @@
                         </tr>
                     </tbody>
                 </table>
+
+                <button onclick="addCars()" class="btn btn-default">Add New Car</button>
+            </div>
+        </div>
+
+        <!-- Adding New Car -->
+        <div class="row" id="add-car">
+            <div class="col-xs-10 col-xs-offset-1 sub-menu-container">
+                <form id="add-car">
+                    <div class="form-group">
+                        <label class="sr-only" for="car-make">Car Make:</label>
+                        <input type="text" class="form-control" id="car-make" placeholder="Car Make:  (e.g Toyota)">
+                    </div>
+                    <div class="form-group">
+                        <label class="sr-only" for="car-model">Car Model:</label>
+                        <input type="text" class="form-control" id="car-model" placeholder="Car Model: (e.g Camry">
+                    </div>
+                    <div class="form-group">
+                        <label class="sr-only" for="registration">Registration</label>
+                        <input type="text" class="form-control" id="registration" placeholder="Registration:">
+                    </div>
+                    <button onclick="loadCars()" type="button" class="btn btn-default text-center">Submit</button>
+                </form>
             </div>
         </div>
 
@@ -271,10 +293,10 @@
                     <a href="rent.php"><img src="images/back.png" alt="Back Arrow"></a>
                 </div>
                 <div class="col-xs-4">
-                    <img src="images/circle.png" alt="Home">
+                    <a href="#"><img src="images/circle.png" alt="Home"></a>
                 </div>
                 <div class="col-xs-4">
-                    <img src="images/square.png" alt="Square">
+                    <a href="#"><img src="images/square.png" alt="Square"></a>
                 </div>
             </div>
         </div>
