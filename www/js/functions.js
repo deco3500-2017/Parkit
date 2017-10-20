@@ -41,6 +41,21 @@ function toggleMenu(){
     }
 }
 
+/* Toggles between hiding and showing the searchbar on the maps page */
+function toggleSearch(){
+    var x = document.getElementById("searchbar");
+
+    if (x.style.display === "none") {
+        x.style.display = "block";
+        document.getElementById("search-icon").classList.remove("col-xs-offset-7");
+        document.getElementById("pac-input").focus();
+;
+    } else {
+        x.style.display = "none";
+        document.getElementById("search-icon").classList.add("col-xs-offset-7");
+    }
+}
+
 
 /* Hides the main menu divs */
 function hideMainDivs(){

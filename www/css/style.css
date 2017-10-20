@@ -12,18 +12,16 @@ html,body{
 	width: 100%;
 }
 
-.vertical-center {
-	min-height: 10%; 
-	min-height: 10vh;   
-  
-	display: flex;
-	align-items: center;
-}
 
 .image-div img{
 	width: 100px;
 	height: 100px;
 	margin-left: -15px;
+}
+
+.navbar{
+	margin-bottom: 0px;
+	min-height: 0px;
 }
 
 /* Registration styling */
@@ -79,8 +77,15 @@ input[type="number"] {
 	background-color: #29ABE2;
 }
 
+#nav-row{
+	background-color: #29ABE2;
+	margin-top: 10px;
+}
+
 #hamburger{
 	height: 100%;
+	margin-left: 15px;
+	margin-right: 5px;
 }
 
 #hamburger-icon:hover{
@@ -89,15 +94,27 @@ input[type="number"] {
 
 #searchbar{
 	padding-left: 0px;
+	display: none;
 }
 
 #pac-input{
 	height: 50%;
-	width: 300px;
+	width: 125px;
 	display: block;
 	margin: 0 auto;
 	padding: 5px;
-	background-color: #EDE8E8;
+	background-color: white;
+}
+
+#search-icon{
+	color: white;
+	font-size: 30px;
+	margin-right: 5px;
+}
+
+
+#search-icon:hover{
+	cursor: pointer;
 }
 
 
