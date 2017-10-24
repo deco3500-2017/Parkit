@@ -69,13 +69,60 @@
 
         <!-- Submenu Header-->
         <div class="navbar navbar-default" id="sub-menu-header">
-            <img id="logo" src="images/logo.png" alt="Parkit Logo">           
+            <a href="rent.php"><img id="logo" src="images/logo.png" alt="Parkit Logo"></a>       
             <h1 id="sub-menu-title">Parkit</h1>
         </div>
         <!-- Favourites -->
         <div class="row" id="favourites">
             <div class="col-xs-10 col-xs-offset-1 sub-menu-container">
-                <p>You have no favourites</p>
+                <div class="row list-item">
+                    <div class="col-xs-3 image-div">
+                            <img src="images/carparks/empty-lot.jpg" alt="carpark image">
+                        </div>
+                        <div class="col-xs-9 list-text">
+                            <p class="park-owner">Mark Travois</p>
+                            <p class="park-description">covered park, 15m walk away from the University of Queensland</p>
+                            <p class="park-price">$5 per hour</p>
+                            <img class="star-filled" alt="Star" src="images/star-filled.png">
+                            <img class="star-filled" alt="Star" src="images/star-filled.png">
+                            <img class="star-filled" alt="Star" src="images/star-filled.png">
+                            <img class="star-filled" alt="Star" src="images/star-filled.png">
+                            <img class="star-unfilled" alt="Star Unfilled" src="images/star-unfilled.png">
+                        </div>
+                        <img class="favourite" src="images/favourite.png" alt="Favourite Icon">
+                </div>
+                <div class="row list-item">
+                    <div class="col-xs-3 image-div">
+                        <img src="images/carparks/empty-lot.jpg" alt="carpark image">
+                    </div>
+                    <div class="col-xs-9 list-text">
+                        <p class="park-owner">Sarah Goodchild</p>
+                        <p class="park-description">Cheap parking on Ann Street</p>
+                        <p class="park-price">$10 per hour</p>
+                        <img class="star-filled" alt="Star" src="images/star-filled.png">
+                        <img class="star-filled" alt="Star" src="images/star-filled.png">
+                        <img class="star-filled" alt="Star" src="images/star-filled.png">
+                        <img class="star-filled" alt="Star Unfilled" src="images/star-unfilled.png">
+                        <img class="star-unfilled" alt="Star Unfilled" src="images/star-unfilled.png">
+                    </div>
+                    <img class="favourite" src="images/favourite.png" alt="Favourite Icon">
+                </div>
+                <div class="row list-item">
+                    <div class="col-xs-3 image-div">
+                        <img src="images/carparks/empty-lot.jpg" alt="carpark image">
+                    </div>
+                    <div class="col-xs-9 list-text">
+                        <p class="park-owner">Dominic Wachowski</p>
+                        <p class="park-description">Street parking near the Milton CBD</p>
+                        <p class="park-price">$3 per hour</p>
+                        <img class="star-filled" alt="Star" src="images/star-filled.png">
+                        <img class="star-filled" alt="Star" src="images/star-filled.png">
+                        <img class="star-filled" alt="Star" src="images/star-filled.png">
+                        <img class="star-filled" alt="Star" src="images/star-filled.png">
+                        <img class="star-unfilled" alt="Star" src="images/star-filled.png">
+                    </div>
+                    <img class="favourite" src="images/favourite.png" alt="Favourite Icon">
+                </div>
             </div>
         </div>
 
