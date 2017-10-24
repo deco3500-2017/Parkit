@@ -196,7 +196,7 @@
                     </tbody>
                 </table>
 
-                <button onclick="addCars()" class="btn btn-default">Add New Car</button>
+                <button onclick="addCars()" class="btn btn-default center-block">Add New Car</button>
             </div>
         </div>
 
@@ -216,7 +216,7 @@
                         <label class="sr-only" for="registration">Registration</label>
                         <input type="text" class="form-control" id="registration" placeholder="Registration:">
                     </div>
-                    <button onclick="loadCars()" type="button" class="btn btn-default text-center">Submit</button>
+                    <button onclick="loadCars()" type="button" class="btn btn-default text-center center-block">Submit</button>
                 </form>
             </div>
         </div>
@@ -270,7 +270,7 @@
                     </div>
                 </div>  
 
-                <button onclick="loadNewParks()" class="btn btn-default">Add New Park</button>                            
+                <button onclick="loadNewParks()" class="btn btn-default center-block">Add New Park</button>                            
             </div>
         </div>
 
@@ -301,7 +301,47 @@
         <!-- Credit Card Details -->
         <div class="row" id="credit-details">
             <div class="col-xs-10 col-xs-offset-1 sub-menu-container">
-                <p>You have no details</p>
+                <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>Address</th>
+                                <th>Time</th>
+                                <th>Rate</th>
+                                <th>Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>23/10/17</td>
+                                <td>16 Vallely St</td>
+                                <td>1hrs</td>  
+                                <td>$2/hour</td>   
+                                <td>$2</td>                     
+                            </tr>
+                            <tr>
+                                <td>12/10/17</td>
+                                <td>89 Harbour Rd</td>
+                                <td>2hrs</td>  
+                                <td>$3/hour</td>   
+                                <td>$6</td>                     
+                            </tr>
+                            <tr>
+                                <td>11/10/17</td>
+                                <td>5 Orange Ave</td>
+                                <td>4hrs</td>  
+                                <td>$5/hour</td>   
+                                <td>$20</td>                     
+                            </tr>
+                            <tr>
+                                <td>30/9/17</td>
+                                <td>123 Fake St</td>
+                                <td>2hrs</td>  
+                                <td>$2/hour</td>   
+                                <td>$4</td>                     
+                            </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
 
