@@ -24,6 +24,14 @@ html,body{
 	min-height: 0px;
 }
 
+p{
+	margin: 0 auto;
+	padding: 5px 0;
+	max-width: 700px;
+	font-weight: 200;
+	font-size: 1.2em;
+}
+
 /* Registration styling */
 
 #login-landing{
@@ -269,4 +277,8 @@ input[type="number"] {
 
 .btn-file{
 	display: block;
+}
+
+#about{
+	margin-top: 15px;
 }

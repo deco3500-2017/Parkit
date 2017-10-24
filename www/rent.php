@@ -55,6 +55,7 @@
                     <a onclick="loadCredit()"><li>Credit Card Details</li></a>
                     <a onclick="loadPayment()"><li>Payment Details</li></a>
                     <a onclick="loadLease()"><li>Lease Summary</li></a>
+                    <a onclick="loadAbout()"><li>About Parkit</li></a>
                     <a href="index.php"><li>Log Out</li></a>
                 </ul>
             </div>
@@ -292,7 +293,6 @@
                         <label class="" for="park-pic">Upload Picture:</label>
                         <span class="btn btn-default btn-file"><input type="file"></span>
                     </div>
-
                     <button onclick="loadParks()" type="button" class="btn btn-default text-center">Submit</button>
                 </form>
             </div>
@@ -384,6 +384,23 @@
                 </div>
                     <img class="favourite" src="images/favourite.png" alt="Favourite Icon">
                 </div>
+            </div>
+        </div>
+
+        <!-- Payment Details -->
+        <div class="row" id="about">
+            <div class="col-xs-10 col-xs-offset-1 sub-menu-container">
+                <p>Parkit aims to promote coordination in the community by providing a mechanism
+                to manage and maximise on available vacant parking spaces.  By raising awareness of 
+                available parking in and around desired destinations, traffic congestion can be minimised
+                as travellers avoid the madness of driving around in circles to find a parking spot.  This
+                awareness can create a synergy and sense of community - an Active Community</p>
+                <p>Parkit provides communication and interaction between people on a mobile platform.  Users
+                can access information on the move with content delivered based on location.  The mix between
+                social and mobile is a great support for social interaction.</p>
+                <p>Join us in our Parkit community to minimise the congestion, reduce the frustration and
+                elevate the excitement in the air as we work together to create an Active Community</p>
+                <button onclick="mapRedirect()" class="btn btn-default center-block">Back</button>
             </div>
         </div>
 

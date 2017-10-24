@@ -74,6 +74,7 @@ function hideMenuDivs(){
     document.getElementById("lease-summary").style.display = "none";
     document.getElementById("add-car").style.display = "none";
     document.getElementById("add-park").style.display = "none";
+    document.getElementById("about").style.display = "none";
 }
 
 /* Loads the favourites 'page' */
@@ -156,4 +157,13 @@ function loadLease(){
     document.getElementById("sub-menu").style.display = "block";
     document.getElementById("sub-menu-title").innerHTML = "Lease Summary";
     document.getElementById("lease-summary").style.display = "block";
+}
+
+function loadAbout(){
+    /* Hides the other content */
+    hideMainDivs();
+    hideMenuDivs();
+    document.getElementById("sub-menu").style.display = "block";
+    document.getElementById("sub-menu-title").innerHTML = "About Us";
+    document.getElementById("about").style.display = "block";
 }
