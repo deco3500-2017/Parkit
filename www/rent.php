@@ -476,15 +476,15 @@
         <!-- Payment Details -->
         <div class="row" id="about">
             <div class="col-xs-10 col-xs-offset-1 sub-menu-container">
-                <p>Parkit aims to promote coordination in the community by providing a mechanism
+                <p class="about">Parkit aims to promote coordination in the community by providing a mechanism
                 to manage and maximise on available vacant parking spaces.  By raising awareness of 
                 available parking in and around desired destinations, traffic congestion can be minimised
                 as travellers avoid the madness of driving around in circles to find a parking spot.  This
                 awareness can create a synergy and sense of community - an Active Community</p>
-                <p>Parkit provides communication and interaction between people on a mobile platform.  Users
+                <p class="about">Parkit provides communication and interaction between people on a mobile platform.  Users
                 can access information on the move with content delivered based on location.  The mix between
                 social and mobile is a great support for social interaction.</p>
-                <p>Join us in our Parkit community to minimise the congestion, reduce the frustration and
+                <p class="about">Join us in our Parkit community to minimise the congestion, reduce the frustration and
                 elevate the excitement in the air as we work together to create an Active Community</p>
                 <button onclick="mapRedirect()" class="btn btn-default center-block">Back</button>
             </div>

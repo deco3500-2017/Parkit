@@ -24,7 +24,7 @@ html,body{
 	min-height: 0px;
 }
 
-p{
+.about{
 	margin: 0 auto;
 	padding: 5px 0;
 	max-width: 700px;
