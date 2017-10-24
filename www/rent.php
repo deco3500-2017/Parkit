@@ -73,7 +73,6 @@
             <a href="rent.php"><img id="logo" src="images/logo.png" alt="Parkit Logo"></a>       
             <h1 id="sub-menu-title">Parkit</h1>
         </div>
-
         <!-- Favourites -->
         <div class="row" id="favourites">
             <div class="col-xs-10 col-xs-offset-1 sub-menu-container">
@@ -207,7 +206,7 @@
 
         <!-- Your Parks -->
         <div class="row" id="your-parks">
-            <div class="col-xs-10 col-xs-offset-1 sub-menu-container">
+           <div class="col-xs-10 col-xs-offset-1 sub-menu-container">
                 <!-- Each Park -->
                 <div class="row list-item">
                     <div class="col-xs-3 image-div">
@@ -272,46 +271,106 @@
         <!-- Credit Card Details -->
         <div class="row" id="credit-details">
             <div class="col-xs-10 col-xs-offset-1 sub-menu-container">
-                <div class="form-group">
-                    <h4  class="creditcard-name">Card Holder's Name</h4 >
-                    <input type="text" class="form-control" id="creditcard-name" placeholder="John Smith">
-                </div>
-                <div class="form-group">
-                    <h4  class="creditcard-number">Credit Card Number</h4 >
-                    <input type="text" class="form-control" id="creditcard-number" placeholder="1234-5678-4321-8765">
-                </div>
-                <div class="form-group">
-                    <h4 class="creditcard-CCV" for="creditcard-CCV">CCV</h4>
-                    <input type="text" class="form-control" id="creditcard-CCV" placeholder="983">
-                </div>
-                <div class="form-group">
-                    <h4 class="creditcard-expiry" for="creditcard-expiry">Expiry Date</h4>
-                    <input type="text" class="form-control" id="creditcard-expiry" placeholder="08/18">
-                </div>
+                <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Type</th>
+                                <th>Card Number</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Visa</td>
+                                <td>**** **** **** 7822</td>               
+                            </tr>
+                            <tr>
+                                <td>Mastercard</td>
+                                <td>**** **** **** 4580</td>                                 
+                            </tr>
+                        </tbody>
+                    </tbody>
+                </table>
+                <button onclick="addCard()" type="button" class="btn btn-default text-center">Add Card</button>
+            </div>
+        </div>
+
+        <!-- Adding a Credit Card -->
+        <div class="row" id="add-credit-card">
+            <div class="col-xs-10 col-xs-offset-1 sub-menu-container">
+                <form id="add-card">
+                        <div class="form-group">
+                            <label class="sr-only" for="card-number">Card Number:</label>
+                            <input type="text" class="form-control" id="card-number" placeholder="Card Number:">
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="card-expiry">Card Expiry:</label>
+                            <input type="text" class="form-control" id="card-expiry" placeholder="Expiry Date: (MM/YY)">
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="card-cvc">Card CVC</label>
+                            <input type="text" class="form-control" id="card-cvc" placeholder="CVC:">
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="card-name">Name on Credit Card:</label>
+                            <input type="text" class="form-control" id="card-name" placeholder="Name on Credit Card:">
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="card-country">Country:</label>
+                            <input type="text" class="form-control" id="card-country" placeholder="Country: (e.g Australia)">
+                        </div>
+                        <button onclick="loadCredit()" type="button" class="btn btn-default text-center center-block">Submit</button>
+                </form>
             </div>
         </div>
 
         <!-- Payment Details -->
         <div class="row" id="payment-details">
-             <div class="col-xs-10 col-xs-offset-1 sub-menu-container">
-             <div class="form-group">
-                    <h4  class="account-name">Account Name</h4 >
-                    <input type="text" class="form-control" id="account-name" placeholder="Mr John Smith">
-                </div>
-                <div class="form-group">
-                    <h4  class="account-number">Account Number</h4 >
-                    <input type="text" class="form-control" id="account-number" placeholder="12345678">
-                </div>
-                <div class="form-group">
-                    <h4 class="BSB-number">BSB Number</h4>
-                    <input type="text" class="form-control" id="BSB-number" placeholder="983-542">
-                </div>
-                </div>
+            <div class="col-xs-10 col-xs-offset-1 sub-menu-container">
+                <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Account Number</th>
+                                <th>BSB</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>John Farnham</td>
+                                <td>124-001</td>
+                                <td>918560420</td>                    
+                            </tr>
+                        </tbody>
+                    </tbody>
+                </table>
+                <button onclick="addPayment()" type="button" class="btn btn-default text-center center-block">Add Card</button>
+            </div>
+        </div>
+
+        <!-- Adding new Payment Details -->
+        <div class="row" id="add-debit-card">
+            <div class="col-xs-10 col-xs-offset-1 sub-menu-container">
+                <form id="add-payment">
+                        <div class="form-group">
+                            <label class="sr-only" for="payment-name">Full Name:</label>
+                            <input type="text" class="form-control" id="payment-name" placeholder="Full Name:">
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="payment-account">Account Number:</label>
+                            <input type="text" class="form-control" id="payment-account" placeholder="Account Number:">
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="payment-bsb">BSB:</label>
+                            <input type="text" class="form-control" id="payment-bsb" placeholder="BSB:">
+                        </div>
+                        <button onclick="loadPayment()" type="button" class="btn btn-default text-center center-block">Submit</button>
+                </form>
+            </div>
         </div>
 
         <!-- Lease Summary-->
         <div class="row" id="lease-summary">
-            <div class="col-xs-10 col-xs-offset-1 sub-menu-container">
+ <div class="col-xs-10 col-xs-offset-1 sub-menu-container">
                 <table class="table">
                     <thead>
                         <tr>
