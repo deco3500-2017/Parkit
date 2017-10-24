@@ -368,6 +368,27 @@
             </div>
         </div>
 
+        <!-- Adding new Payment Details -->
+        <div class="row" id="add-debit-card">
+            <div class="col-xs-10 col-xs-offset-1 sub-menu-container">
+                <form id="add-payment">
+                        <div class="form-group">
+                            <label class="sr-only" for="payment-name">Full Name:</label>
+                            <input type="text" class="form-control" id="payment-name" placeholder="Full Name:">
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="payment-account">Account Number:</label>
+                            <input type="text" class="form-control" id="payment-account" placeholder="Account Number:">
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="payment-bsb">BSB:</label>
+                            <input type="text" class="form-control" id="payment-bsb" placeholder="BSB:">
+                        </div>
+                        <button onclick="loadPayment()" type="button" class="btn btn-default text-center center-block">Submit</button>
+                </form>
+            </div>
+        </div>
+
         <!-- Lease Summary-->
         <div class="row" id="lease-summary">
  <div class="col-xs-10 col-xs-offset-1 sub-menu-container">

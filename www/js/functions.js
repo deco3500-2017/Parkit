@@ -75,6 +75,7 @@ function hideMenuDivs(){
     document.getElementById("add-car").style.display = "none";
     document.getElementById("add-park").style.display = "none";
     document.getElementById("add-credit-card").style.display = "none";
+    document.getElementById("add-debit-card").style.display = "none";
     document.getElementById("about").style.display = "none";
 }
 
@@ -175,4 +176,12 @@ function addCard(){
     document.getElementById("sub-menu").style.display = "block";
     document.getElementById("sub-menu-title").innerHTML = "Add Card";
     document.getElementById("add-credit-card").style.display = "block";
+}
+
+function addPayment(){
+    hideMainDivs();
+    hideMenuDivs();
+    document.getElementById("sub-menu").style.display = "block";
+    document.getElementById("sub-menu-title").innerHTML = "Add Card";
+    document.getElementById("add-debit-card").style.display = "block";
 }

@@ -275,6 +275,18 @@ input[type="number"] {
 	margin-top: 15px;
 }
 
+#payment-details{
+	margin-top: 15px;
+}
+
+#add-credit-card{
+	margin-top: 15px;
+}
+
+#add-debit-card{
+	margin-top: 15px;
+}
+
 .btn-file{
 	display: block;
 }
