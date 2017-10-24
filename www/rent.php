@@ -304,44 +304,52 @@
                 <table class="table">
                         <thead>
                             <tr>
-                                <th>Date</th>
-                                <th>Address</th>
-                                <th>Time</th>
-                                <th>Rate</th>
-                                <th>Total</th>
+                                <th>Type</th>
+                                <th>Card Number</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td>23/10/17</td>
-                                <td>16 Vallely St</td>
-                                <td>1hrs</td>  
-                                <td>$2/hour</td>   
-                                <td>$2</td>                     
+                                <td>Visa</td>
+                                <td>**** **** **** 7822</td>               
                             </tr>
                             <tr>
-                                <td>12/10/17</td>
-                                <td>89 Harbour Rd</td>
-                                <td>2hrs</td>  
-                                <td>$3/hour</td>   
-                                <td>$6</td>                     
+                                <td>Mastercard</td>
+                                <td>**** **** **** 4580</td>                                 
                             </tr>
-                            <tr>
-                                <td>11/10/17</td>
-                                <td>5 Orange Ave</td>
-                                <td>4hrs</td>  
-                                <td>$5/hour</td>   
-                                <td>$20</td>                     
-                            </tr>
-                            <tr>
-                                <td>30/9/17</td>
-                                <td>123 Fake St</td>
-                                <td>2hrs</td>  
-                                <td>$2/hour</td>   
-                                <td>$4</td>                     
-                            </tr>
+                        </tbody>
                     </tbody>
                 </table>
+                <button onclick="addCard()" type="button" class="btn btn-default text-center">Add Card</button>
+            </div>
+        </div>
+
+        <!-- Adding a Credit Card -->
+        <div class="row" id="add-credit-card">
+            <div class="col-xs-10 col-xs-offset-1 sub-menu-container">
+                <form id="add-car">
+                        <div class="form-group">
+                            <label class="sr-only" for="card-number">Card Number:</label>
+                            <input type="text" class="form-control" id="card-number" placeholder="Card Number:">
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="card-expiry">Card Expiry:</label>
+                            <input type="text" class="form-control" id="card-expiry" placeholder="Expiry Date: (MM/YY)">
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="card-cvc">Card CVC</label>
+                            <input type="text" class="form-control" id="card-cvc" placeholder="CVC:">
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="card-name">Name on Credit Card:</label>
+                            <input type="text" class="form-control" id="card-name" placeholder="Name on Credit Card:">
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="card-country">Country:</label>
+                            <input type="text" class="form-control" id="card-country" placeholder="Country: (e.g Australia)">
+                        </div>
+                        <button onclick="loadCredit()" type="button" class="btn btn-default text-center center-block">Submit</button>
+                </form>
             </div>
         </div>
 

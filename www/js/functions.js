@@ -74,6 +74,7 @@ function hideMenuDivs(){
     document.getElementById("lease-summary").style.display = "none";
     document.getElementById("add-car").style.display = "none";
     document.getElementById("add-park").style.display = "none";
+    document.getElementById("add-credit-card").style.display = "none";
     document.getElementById("about").style.display = "none";
 }
 
@@ -137,7 +138,7 @@ function loadCredit(){
     hideMainDivs();
     hideMenuDivs();
     document.getElementById("sub-menu").style.display = "block";
-    document.getElementById("sub-menu-title").innerHTML = "Credit Card Details";
+    document.getElementById("sub-menu-title").innerHTML = "Credit Details";
     document.getElementById("credit-details").style.display = "block";
 }
 
@@ -166,4 +167,12 @@ function loadAbout(){
     document.getElementById("sub-menu").style.display = "block";
     document.getElementById("sub-menu-title").innerHTML = "About Us";
     document.getElementById("about").style.display = "block";
+}
+
+function addCard(){
+    hideMainDivs();
+    hideMenuDivs();
+    document.getElementById("sub-menu").style.display = "block";
+    document.getElementById("sub-menu-title").innerHTML = "Add Card";
+    document.getElementById("add-credit-card").style.display = "block";
 }
