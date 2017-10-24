@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <markers>
-    <marker id="1" name="Billy Kwong" address="1/28 Macleay Street, Elizabeth Bay, NSW" lat="-33.869843" lng="-151.225769" type="restaurant" />
-    <marker id="2" name="Love.Fish" address="580 Darling Street, Rozelle, NSW" lat="-33.861034" lng="151.171936" type="restaurant" />
-    <marker id="3" name="Young Henrys" address="76 Wilford Street, Newtown, NSW" lat="-33.898113" lng="151.174469" type="bar" />
-    <marker id="4" name="Hunter Gatherer" address="Greenwood Plaza, 36 Blue St, North Sydney NSW" lat="-33.840282" lng="151.207474" type="bar" />
-    <marker id="5" name="The Potting Shed" address="7A, 2 Huntley Street, Alexandria, NSW" lat="-33.910751" lng="151.194168" type="bar" />
-    <marker id="6" name="Nomad" address="16 Foster Street, Surry Hills, NSW" lat="-33.879917" lng="151.210449" type="bar" />
-    <marker id="7" name="Three Blue Ducks" address="43 Macpherson Street, Bronte, NSW" lat="-33.906357" lng="151.263763" type="restaurant" />
-    <marker id="8" name="Single Origin Roasters" address="60-64 Reservoir Street, Surry Hills, NSW" lat="-33.881123" lng="151.209656" type="restaurant" />
-    <marker id="9" name="Red Lantern" address="60 Riley Street, Darlinghurst, NSW" lat="-33.874737" lng="151.215530" type="restaurant" />
+    <marker id="1" name="Billy Kwong" address="242 Carmody Rd, St Lucia QLD 4067" lat="-27.498014" lng="153.005331" />
+    <marker id="2" name="Tim Blair" address="23 Carr St, St Lucia QLD 4067" lat="-27.493695" lng="153.008100" />
+    <marker id="3" name="George Michael" address="20 Grantham St, Dutton Park QLD 4102" lat="-27.495198" lng="153.025682" />
+    <marker id="4" name="John Richards" address="405 Montague Rd, West End QLD 4101" lat="-27.485830" lng="153.001081" />
+    <marker id="5" name="Michael Buble" address="144 Swann Rd, Taringa QLD 4068" lat="-27.497129" lng="152.984998" />
+    <marker id="6" name="Tony Shroud" address="69 Sherwood Rd, Toowong QLD 4066" lat="-27.485023" lng="152.989491" />
+    <marker id="7" name="George Foreman" address="168 Elizabeth St, Brisbane City QLD 4000" lat="-27.469533" lng="153.026977" />
+    <marker id="8" name="Sarah Goodchild" address="161 Main St, Kangaroo Point QLD 4169" lat="-27.467560" lng="153.035385" />
+    <marker id="9" name="Caitlyn Stark" address="72 McLachlan St, Fortitude Valley QLD 4006" lat="-27.457417" lng="153.036914" />
 </markers>

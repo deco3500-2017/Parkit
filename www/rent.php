@@ -11,9 +11,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/style.css" type="text/css">
 	<script src="js/functions.js"></script>
-
-	
-
 </head>
 
 <body>
@@ -257,7 +254,7 @@
             <!-- Each lease Item -->
             <div class="row list-item">
                 <div class="col-xs-3 image-div">
-                    <img class="img-responsive" src="images/carparks/empty-lot.jpg" alt="carpark image">
+                    <img src="images/carparks/empty-lot.jpg" alt="carpark image">
                 </div>
                 <div class="col-xs-9 list-text">
                     <p class="park-owner">Jo Smith</p>
