@@ -8,7 +8,7 @@ function loadRegistration(){
 function loadThanks(){
     document.getElementById("registration-container").style.display = "none";
     document.getElementById("thanks-container").style.display = "block";
-    setTimeout(loadOptions, 3000);
+    setTimeout(mapRedirect, 3000);
 }
 
 /* Hides login page & Loads the registration form */

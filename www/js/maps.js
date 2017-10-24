@@ -1,8 +1,8 @@
 function initAutocomplete() {
 
 	//Google Map and Directions objects
-	var directionsService = new google.maps.DirectionsService;
-	var directionsDisplay = new google.maps.DirectionsRenderer;
+	var directionsService = new google.maps.DirectionsService();
+	var directionsDisplay = new google.maps.DirectionsRenderer();
 	var map = new google.maps.Map(document.getElementById('map'), {
 		
 		center: new google.maps.LatLng(-27.495738, 153.011882),
@@ -17,7 +17,19 @@ function initAutocomplete() {
 
 	});
 	directionsDisplay.setMap(map);
-	
+	directionsDisplay.setPanel(document.getElementById('panel'));
+
+	 var request = {
+        origin: '140 Broadway, Chippendale', 
+        destination: '700 George St, Sydney',
+        travelMode: google.maps.DirectionsTravelMode.DRIVING
+    };
+    
+    directionsService.route(request, function(response, status) {
+        if (status == google.maps.DirectionsStatus.OK) {
+    	    directionsDisplay.setDirections(response);
+        }
+    });
 
 	var infoWindow = new google.maps.InfoWindow;
 
