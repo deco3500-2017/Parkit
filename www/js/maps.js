@@ -16,12 +16,13 @@ function initAutocomplete() {
 		fullscreenControl: true
 
 	});
+
 	directionsDisplay.setMap(map);
 	directionsDisplay.setPanel(document.getElementById('panel'));
 
 	 var request = {
-        origin: '140 Broadway, Chippendale', 
-        destination: '700 George St, Sydney',
+        origin: 'University of Queensland St Lucia', 
+        destination: '23 Carr St, St Lucia QLD 4067',
         travelMode: google.maps.DirectionsTravelMode.DRIVING
     };
     

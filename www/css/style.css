@@ -262,3 +262,11 @@ input[type="number"] {
 #add-car{
 	margin-top: 15px;
 }
+
+#add-park{
+	margin-top: 15px;
+}
+
+.btn-file{
+	display: block;
+}

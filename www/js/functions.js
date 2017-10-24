@@ -73,6 +73,7 @@ function hideMenuDivs(){
     document.getElementById("payment-details").style.display = "none";
     document.getElementById("lease-summary").style.display = "none";
     document.getElementById("add-car").style.display = "none";
+    document.getElementById("add-park").style.display = "none";
 }
 
 /* Loads the favourites 'page' */
@@ -121,6 +122,15 @@ function loadParks(){
     document.getElementById("your-parks").style.display = "block";
 }
 
+
+function loadNewParks(){
+        /* Hides the other content */
+        hideMainDivs();
+        hideMenuDivs();
+        document.getElementById("sub-menu").style.display = "block";
+        document.getElementById("sub-menu-title").innerHTML = "Add Car";
+        document.getElementById("add-park").style.display = "block";
+}
 function loadCredit(){
     /* Hides the other content */
     hideMainDivs();

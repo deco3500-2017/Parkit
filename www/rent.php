@@ -89,7 +89,6 @@
                             <img class="star-filled" alt="Star" src="images/star-filled.png">
                             <img class="star-unfilled" alt="Star Unfilled" src="images/star-unfilled.png">
                         </div>
-                        <img class="favourite" src="images/favourite.png" alt="Favourite Icon">
                 </div>
                 <div class="row list-item">
                     <div class="col-xs-3 image-div">
@@ -105,7 +104,6 @@
                         <img class="star-filled" alt="Star Unfilled" src="images/star-unfilled.png">
                         <img class="star-unfilled" alt="Star Unfilled" src="images/star-unfilled.png">
                     </div>
-                    <img class="favourite" src="images/favourite.png" alt="Favourite Icon">
                 </div>
                 <div class="row list-item">
                     <div class="col-xs-3 image-div">
@@ -121,7 +119,6 @@
                         <img class="star-filled" alt="Star" src="images/star-filled.png">
                         <img class="star-unfilled" alt="Star" src="images/star-filled.png">
                     </div>
-                    <img class="favourite" src="images/favourite.png" alt="Favourite Icon">
                 </div>
             </div>
         </div>
@@ -232,16 +229,14 @@
                         <img src="images/carparks/empty-lot.jpg" alt="carpark image">
                     </div>
                     <div class="col-xs-9 list-text">
-                        <p class="park-owner">Test User</p>
-                        <p class="park-description">Cheap parking super close to the city</p>
-                        <p class="park-price">$20</p>
+                        <p class="park-description">Undercover, secure parking on Queen Street</p>
+                        <p class="park-price">$5 per hour</p>
                         <img class="star-filled" alt="Star" src="images/star-filled.png">
                         <img class="star-filled" alt="Star" src="images/star-filled.png">
                         <img class="star-filled" alt="Star" src="images/star-filled.png">
                         <img class="star-filled" alt="Star" src="images/star-filled.png">
                         <img class="star-unfilled" alt="Star Unfilled" src="images/star-unfilled.png">
                     </div>
-                    <img class="favourite" src="images/favourite.png" alt="Favourite Icon">
                 </div>
                 <!-- Each Park -->
                 <div class="row list-item">
@@ -249,16 +244,14 @@
                         <img src="images/carparks/empty-lot.jpg" alt="carpark image">
                     </div>
                     <div class="col-xs-9 list-text">
-                        <p class="park-owner">Test User</p>
-                        <p class="park-description">Cheap parking super close to the city</p>
-                        <p class="park-price">$20</p>
+                        <p class="park-description">Undercover, secure parking on Queen Street</p>
+                        <p class="park-price">$5 per hour</p>
                         <img class="star-filled" alt="Star" src="images/star-filled.png">
                         <img class="star-filled" alt="Star" src="images/star-filled.png">
                         <img class="star-filled" alt="Star" src="images/star-filled.png">
                         <img class="star-filled" alt="Star" src="images/star-filled.png">
                         <img class="star-unfilled" alt="Star Unfilled" src="images/star-unfilled.png">
                     </div>
-                    <img class="favourite" src="images/favourite.png" alt="Favourite Icon">
                 </div>
                 <!-- Each Park -->
                 <div class="row list-item">
@@ -266,17 +259,42 @@
                         <img src="images/carparks/empty-lot.jpg" alt="carpark image">
                     </div>
                     <div class="col-xs-9 list-text">
-                        <p class="park-owner">Test User</p>
-                        <p class="park-description">Cheap parking super close to the city</p>
-                        <p class="park-price">$20</p>
+                        <p class="park-description">Undercover, secure parking on Queen Street</p>
+                        <p class="park-price">$5 per hour</p>
                         <img class="star-filled" alt="Star" src="images/star-filled.png">
                         <img class="star-filled" alt="Star" src="images/star-filled.png">
                         <img class="star-filled" alt="Star" src="images/star-filled.png">
                         <img class="star-filled" alt="Star" src="images/star-filled.png">
                         <img class="star-unfilled" alt="Star Unfilled" src="images/star-unfilled.png">
                     </div>
-                    <img class="favourite" src="images/favourite.png" alt="Favourite Icon">
-                </div>                              
+                </div>  
+
+                <button onclick="loadNewParks()" class="btn btn-default">Add New Park</button>                            
+            </div>
+        </div>
+
+        <div class="row" id="add-park">
+            <div class="col-xs-10 col-xs-offset-1 sub-menu-container">
+                <form id="add-space">
+                    <div class="form-group">
+                        <label class="sr-only" for="Address">Address:</label>
+                        <input type="text" class="form-control" id="park-address" placeholder="Address:">
+                    </div>
+                    <div class="form-group">
+                        <label class="sr-only" for="park-times">Times Available:</label>
+                        <input type="text" class="form-control" id="park-times" placeholder="Times Available: (e.g 12-3pm Mon-Fri)">
+                    </div>
+                    <div class="form-group">
+                        <label class="sr-only" for="park-rate">Hourly Rate:</label>
+                        <input type="text" class="form-control" id="park-rate" placeholder="Hourly Rate:">
+                    </div>
+                    <div class="form-group">
+                        <label class="" for="park-pic">Upload Picture:</label>
+                        <span class="btn btn-default btn-file"><input type="file"></span>
+                    </div>
+
+                    <button onclick="loadParks()" type="button" class="btn btn-default text-center">Submit</button>
+                </form>
             </div>
         </div>
 
