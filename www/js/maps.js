@@ -1,13 +1,11 @@
 function initAutocomplete() {
-	//St Lucia Settings
-	//center: new google.maps.LatLng(-27.495738, 153.011882),
-	//zoom: 16
-	//
-	
-	//Initialises the google maps object
+
+	//Google Map and Directions objects
+	var directionsService = new google.maps.DirectionsService;
+	var directionsDisplay = new google.maps.DirectionsRenderer;
 	var map = new google.maps.Map(document.getElementById('map'), {
 		
-		center: {lat: -33.8688, lng: 151.2195},
+		center: new google.maps.LatLng(-27.495738, 153.011882),
 		zoom: 13,
 		mapTypeId: 'roadmap',
 		zoomControl: true,
@@ -18,11 +16,13 @@ function initAutocomplete() {
 		fullscreenControl: true
 
 	});
+	directionsDisplay.setMap(map);
+	
 
 	var infoWindow = new google.maps.InfoWindow;
 
 	//Reads the XML File and gathers column data for each parking space entry
-	downloadUrl('https://storage.googleapis.com/mapsdevsite/json/mapmarkers2.xml', function(data) {
+	downloadUrl('dummydb.xml', function(data) {
 		var xml = data.responseXML;
 		var markers = xml.documentElement.getElementsByTagName('marker');
 		Array.prototype.forEach.call(markers, function(markerElem) {
@@ -48,6 +48,7 @@ function initAutocomplete() {
 		//Creates the button for each marker
 		var bookButton = document.createElement('button');
 		var buttonText = document.createTextNode('Book Now');
+		bookButton.setAttribute("onclick", "bookNow("+id+")");
 		bookButton.appendChild(buttonText);
 		infowincontent.appendChild(document.createElement('br'));
 		infowincontent.appendChild(bookButton);
@@ -62,6 +63,7 @@ function initAutocomplete() {
 		marker.addListener('click', function() {
 			infoWindow.setContent(infowincontent);
 			infoWindow.open(map, marker);
+			drawDirections();
 		});
 		});
 	});
@@ -123,7 +125,10 @@ function initAutocomplete() {
 	  });
 	  map.fitBounds(bounds);
 	});
-	}
+}
+
+
+
 
 //Settings for the XML Request
 function downloadUrl(url, callback) {
@@ -143,3 +148,18 @@ request.send(null);
 }
 
 function doNothing() {}
+
+/*
+function bookNow(parkID){
+	$.ajax({
+		type: "GET",
+		url: 'dummydb.xml',
+		dataType: "xml",
+		success: function (xml) {
+			test =	$(xml).find("marker[id="+parkID+])
+			alert(test);
+		 }
+});
+}
+
+*/
