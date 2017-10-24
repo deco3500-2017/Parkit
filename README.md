@@ -2,6 +2,10 @@
 Team Dominators - Parkit.
 
 * * *
+High Fidelity Mockup - Link to Project:
+https://projects.invisionapp.com/share/Y4E3RLLFB
+
+* * *
 Stand Up 1 Documentation:
 https://docs.google.com/document/d/1Bii7ALeAO7DhiQbKRlru_QoWlBiBJ0xT5m2G_RwKEFM/edit
 
