@@ -86,6 +86,7 @@
                     <div class="col-xs-9 list-text">
                         <p class="park-address">187 East St</p>
                         <p class="park-availability">Available Now</p>
+                        <button class="btn btn-default">Book Now</button>
                     </div>
                 </div>
             <div class="row list-item">
@@ -460,7 +461,22 @@
         <!-- Bottom Bar-->
         <div class="nav navbar-fixed-bottom" id="sub-menu-footer">
             <div class="row">
-                <div class="col-xs-offset-1"></div>
+            <!-- Bottom Bar-->
+                <div class="row" id="sub-menu-features">
+                    <div class="col-xs-4">
+                    <a href="#"><img id="bottom-center" src="images/nav-center.png" alt="Center Map"></a>
+                    </div>
+                    <div class="col-xs-4">
+                    <a onclick="bookNow(1)"><h2 id="parkit-bottom">Parkit.</h2></a>
+                    </div>
+                    <div class="col-xs-4">
+                    <a onclick="loadFavourites()"><img id="bottom-favourite" src="images/nav-favourite.png" alt="Favourite Parks"></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mock Phone Navigation Buttons-->
+            <div class="row" id="sub-menu-phone">
                 <div class="col-xs-4">
                     <a href="rent.php"><img src="images/back.png" alt="Back Arrow"></a>
                 </div>

@@ -178,6 +178,7 @@ input[type="number"] {
 #options > a{
 	text-align: center;
 	margin-left: 0;
+	color: #29ABE2;
 }
 
 #options ul{
@@ -217,15 +218,43 @@ input[type="number"] {
 
 #sub-menu-footer{
 	background-color: #29ABE2;
-	height: 10%;
+	height: 15%;
 	bottom: 0;
-	max-height: 70px;
+	max-height: 100px;
 }
 
-#sub-menu-footer img{
-	display: block;
-	margin: 15px auto 0px auto;
+#sub-menu-features{
+	background-color: #29ABE2;
+	max-height: 40px;
+	margin-top: 5px;
 }
+
+#sub-menu-features h2{
+	color: white;
+	text-align: center;
+}
+
+#sub-menu-features img{
+	max-height: 35px;
+}
+
+#sub-menu-features a:hover{
+	cursor: pointer;
+	color: white;
+}
+
+#sub-menu-phone{
+	max-height: 40px;
+	margin-top: 5px;
+}
+
+#sub-menu-phone img{
+	max-height: 35px;
+	display: block;
+	margin: 0 auto 0 auto;
+}
+
+
 
 #logo{
 	max-height: 70px;
@@ -295,3 +324,26 @@ input[type="number"] {
 #about{
 	margin-top: 15px;
 }
+
+#parkit-bottom h2{
+	color: white;
+	text-align: center;
+}
+
+#parkit-bottom{
+	margin-top: 0;
+}
+
+#bottom-favourite{
+	float: right;
+}
+
+#bottom-center{
+	margin-left: 30px;
+}
+
+#bottom-favourite{
+	margin-right: 30px;
+}
+
+
