@@ -17,6 +17,14 @@ function initAutocomplete() {
 
 	});
 
+	var point = new google.maps.LatLng(-27.499344, 153.014944);
+
+	var marker = new google.maps.Marker({
+			map: map,
+			position: point,
+			icon: "images/nav.png"
+		});
+
 	directionsDisplay.setMap(map);
 	directionsDisplay.setPanel(document.getElementById('panel'));
 
@@ -178,7 +186,7 @@ function doNothing() {}
 
 
 function bookNow(id){
-	console.log("help");
+	console.log("book");
 	var marker = xml.documentElement.getElementsByTagName('marker')[id - 1];
 	address = marker.getAttribute("address");
 	var request = {
@@ -193,3 +201,13 @@ function bookNow(id){
         }
     });
 }
+
+
+function bookFavourite(id){
+	console.log("book favourite");
+	bookNow(id);
+	hideMenuDivs();
+	hideMainDivs();
+	toggleMenu();
+}
+
