@@ -63,9 +63,7 @@
 
         <!-- Map container -->
         <div class="col-xs-12" id="map">
-        
             <div id="map-nav">
-            </div>
         </div>
     </div>
 
@@ -81,32 +79,49 @@
             <div class="col-xs-10 col-xs-offset-1 sub-menu-container">
                 <div class="row list-item">
                     <div class="col-xs-3 image-div">
+                            <img src="images/carparks/empty-lot.jpg" alt="carpark image">
+                        </div>
+                        <div class="col-xs-9 list-text">
+                            <p class="park-owner">Mark Travois</p>
+                            <p class="park-description">covered park, 15m walk away from the University of Queensland</p>
+                            <p class="park-price">$5 per hour</p>
+                            <img class="star-filled" alt="Star" src="images/star-filled.png">
+                            <img class="star-filled" alt="Star" src="images/star-filled.png">
+                            <img class="star-filled" alt="Star" src="images/star-filled.png">
+                            <img class="star-filled" alt="Star" src="images/star-filled.png">
+                            <img class="star-unfilled" alt="Star Unfilled" src="images/star-unfilled.png">
+                        </div>
+                </div>
+                <div class="row list-item">
+                    <div class="col-xs-3 image-div">
                         <img src="images/carparks/empty-lot.jpg" alt="carpark image">
                     </div>
                     <div class="col-xs-9 list-text">
-                        <p class="park-address">187 East St</p>
-                        <p class="park-availability">Available Now</p>
+                        <p class="park-owner">Sarah Goodchild</p>
+                        <p class="park-description">Cheap parking on Ann Street</p>
+                        <p class="park-price">$10 per hour</p>
+                        <img class="star-filled" alt="Star" src="images/star-filled.png">
+                        <img class="star-filled" alt="Star" src="images/star-filled.png">
+                        <img class="star-filled" alt="Star" src="images/star-filled.png">
+                        <img class="star-filled" alt="Star Unfilled" src="images/star-unfilled.png">
+                        <img class="star-unfilled" alt="Star Unfilled" src="images/star-unfilled.png">
                     </div>
                 </div>
-            <div class="row list-item">
-                <div class="col-xs-3 image-div">
-                     <img src="images/carparks/empty-lot.jpg" alt="carpark image">
+                <div class="row list-item">
+                    <div class="col-xs-3 image-div">
+                        <img src="images/carparks/empty-lot.jpg" alt="carpark image">
+                    </div>
+                    <div class="col-xs-9 list-text">
+                        <p class="park-owner">Dominic Wachowski</p>
+                        <p class="park-description">Street parking near the Milton CBD</p>
+                        <p class="park-price">$3 per hour</p>
+                        <img class="star-filled" alt="Star" src="images/star-filled.png">
+                        <img class="star-filled" alt="Star" src="images/star-filled.png">
+                        <img class="star-filled" alt="Star" src="images/star-filled.png">
+                        <img class="star-filled" alt="Star" src="images/star-filled.png">
+                        <img class="star-unfilled" alt="Star" src="images/star-filled.png">
+                    </div>
                 </div>
-                <div class="col-xs-9 list-text">
-                    <p class="park-address">65 South St</p>
-                    <p class="park-availability">Not Available</p>
-                </div>
-            </div>
-            <div class="row list-item">
-                <div class="col-xs-3 image-div">
-                    <img src="images/carparks/empty-lot.jpg" alt="carpark image">
-                </div>
-                <div class="col-xs-9 list-text">
-                    <p class="park-address">32 North St</p>
-                    <p class="park-availability">Not Available</p>
-                </div>
-                </div>
-            </div>
             </div>
         </div>
 
@@ -209,16 +224,20 @@
 
         <!-- Your Parks -->
         <div class="row" id="your-parks">
-           <div class="col-xs-10 col-xs-offset-1 sub-menu-container">
+            <div class="col-xs-10 col-xs-offset-1 sub-menu-container">
                 <!-- Each Park -->
                 <div class="row list-item">
                     <div class="col-xs-3 image-div">
                         <img src="images/carparks/empty-lot.jpg" alt="carpark image">
                     </div>
                     <div class="col-xs-9 list-text">
-                        <p class="park-address">12 West St</p>
-                        <p class="park-availability">Available:</p>
-                        <p class="park-availability">Everyday: 9am - 5pm</p>
+                        <p class="park-description">Undercover, secure parking on Queen Street</p>
+                        <p class="park-price">$5 per hour</p>
+                        <img class="star-filled" alt="Star" src="images/star-filled.png">
+                        <img class="star-filled" alt="Star" src="images/star-filled.png">
+                        <img class="star-filled" alt="Star" src="images/star-filled.png">
+                        <img class="star-filled" alt="Star" src="images/star-filled.png">
+                        <img class="star-unfilled" alt="Star Unfilled" src="images/star-unfilled.png">
                     </div>
                 </div>
                 <!-- Each Park -->
@@ -227,9 +246,13 @@
                         <img src="images/carparks/empty-lot.jpg" alt="carpark image">
                     </div>
                     <div class="col-xs-9 list-text">
-                        <p class="park-address">7 Eagle St</p>
-                        <p class="park-availability">Available:</p>
-                        <p class="park-availability">Weekdays: 9am - 5pm</p>
+                        <p class="park-description">Undercover, secure parking on Queen Street</p>
+                        <p class="park-price">$5 per hour</p>
+                        <img class="star-filled" alt="Star" src="images/star-filled.png">
+                        <img class="star-filled" alt="Star" src="images/star-filled.png">
+                        <img class="star-filled" alt="Star" src="images/star-filled.png">
+                        <img class="star-filled" alt="Star" src="images/star-filled.png">
+                        <img class="star-unfilled" alt="Star Unfilled" src="images/star-unfilled.png">
                     </div>
                 </div>
                 <!-- Each Park -->
@@ -238,12 +261,17 @@
                         <img src="images/carparks/empty-lot.jpg" alt="carpark image">
                     </div>
                     <div class="col-xs-9 list-text">
-                        <p class="park-address">122 Park Ave</p>
-                        <p class="park-availability">Available:</p>
-                        <p class="park-availability">Monday: All Day</p>
-                        <p class="park-availability">Tuesday: All Day</p>
+                        <p class="park-description">Undercover, secure parking on Queen Street</p>
+                        <p class="park-price">$5 per hour</p>
+                        <img class="star-filled" alt="Star" src="images/star-filled.png">
+                        <img class="star-filled" alt="Star" src="images/star-filled.png">
+                        <img class="star-filled" alt="Star" src="images/star-filled.png">
+                        <img class="star-filled" alt="Star" src="images/star-filled.png">
+                        <img class="star-unfilled" alt="Star Unfilled" src="images/star-unfilled.png">
                     </div>
-                </div>                              
+                </div>  
+
+                <button onclick="loadNewParks()" class="btn btn-default center-block">Add New Park</button>                            
             </div>
         </div>
 
@@ -371,71 +399,78 @@
             </div>
         </div>
 
-        <!-- Adding new Payment Details -->
-        <div class="row" id="add-debit-card">
-            <div class="col-xs-10 col-xs-offset-1 sub-menu-container">
-                <form id="add-payment">
-                        <div class="form-group">
-                            <label class="sr-only" for="payment-name">Full Name:</label>
-                            <input type="text" class="form-control" id="payment-name" placeholder="Full Name:">
-                        </div>
-                        <div class="form-group">
-                            <label class="sr-only" for="payment-account">Account Number:</label>
-                            <input type="text" class="form-control" id="payment-account" placeholder="Account Number:">
-                        </div>
-                        <div class="form-group">
-                            <label class="sr-only" for="payment-bsb">BSB:</label>
-                            <input type="text" class="form-control" id="payment-bsb" placeholder="BSB:">
-                        </div>
-                        <button onclick="loadPayment()" type="button" class="btn btn-default text-center center-block">Submit</button>
-                </form>
-            </div>
-        </div>
-
         <!-- Lease Summary-->
         <div class="row" id="lease-summary">
- <div class="col-xs-10 col-xs-offset-1 sub-menu-container">
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th>Date</th>
-                            <th>Address</th>
-                            <th>Time</th>
-                            <th>Rate</th>
-                            <th>Total</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>23/10/17</td>
-                            <td>12 West St</td>
-                            <td>1hrs</td>  
-                            <td>$2/hour</td>   
-                            <td>$2</td>                     
-                        </tr>
-                         <tr>
-                            <td>12/10/17</td>
-                            <td>12 West St</td>
-                            <td>2hrs</td>  
-                            <td>$3/hour</td>   
-                            <td>$6</td>                     
-                        </tr>
-                         <tr>
-                            <td>11/10/17</td>
-                            <td>122 Park Ave</td>
-                            <td>4hrs</td>  
-                            <td>$5/hour</td>   
-                            <td>$20</td>                     
-                        </tr>
-                         <tr>
-                            <td>30/9/17</td>
-                            <td>7 Eagle St</td>
-                            <td>2hrs</td>  
-                            <td>$2/hour</td>   
-                            <td>$4</td>                     
-                        </tr>
-                    </tbody>
-                </table>
+            <div class="col-xs-10 col-xs-offset-1 sub-menu-container">
+
+            <!-- Each lease Item -->
+            <div class="row list-item">
+                <div class="col-xs-3 image-div">
+                    <img src="images/carparks/empty-lot.jpg" alt="carpark image">
+                </div>
+                <div class="col-xs-9 list-text">
+                    <p class="park-owner">Jo Smith</p>
+                    <p class="park-description">Cheap parking super close to the city</p>
+                    <p class="park-price">$20</p>
+                    <img class="star-filled" alt="Star" src="images/star-filled.png">
+                    <img class="star-filled" alt="Star" src="images/star-filled.png">
+                    <img class="star-filled" alt="Star" src="images/star-filled.png">
+                    <img class="star-filled" alt="Star" src="images/star-filled.png">
+                    <img class="star-unfilled" alt="Star Unfilled" src="images/star-unfilled.png">
+                </div>
+                <img class="favourite" src="images/favourite.png" alt="Favourite Icon">
+            </div>
+            <!-- Each lease Item -->
+            <div class="row list-item">
+                <div class="col-xs-3 image-div">
+                    <img src="images/carparks/empty-lot.jpg" alt="carpark image">
+                </div>
+                <div class="col-xs-9 list-text">
+                    <p class="park-owner">Jo Smith</p>
+                    <p class="park-description">Cheap parking super close to the city</p>
+                    <p class="park-price">$20</p>
+                    <img class="star-filled" alt="Star" src="images/star-filled.png">
+                    <img class="star-filled" alt="Star" src="images/star-filled.png">
+                    <img class="star-filled" alt="Star" src="images/star-filled.png">
+                    <img class="star-filled" alt="Star" src="images/star-filled.png">
+                    <img class="star-unfilled" alt="Star Unfilled" src="images/star-unfilled.png">
+                </div>
+                <img class="favourite" src="images/favourite.png" alt="Favourite Icon">
+            </div>
+                 <!-- Each lease Item -->
+            <div class="row list-item">
+                <div class="col-xs-3 image-div">
+                     <img src="images/carparks/empty-lot.jpg" alt="carpark image">
+                </div>
+                <div class="col-xs-9 list-text">
+                    <p class="park-owner">Jo Smith</p>
+                    <p class="park-description">Cheap parking super close to the city</p>
+                    <p class="park-price">$20</p>
+                    <img class="star-filled" alt="Star" src="images/star-filled.png">
+                    <img class="star-filled" alt="Star" src="images/star-filled.png">
+                    <img class="star-filled" alt="Star" src="images/star-filled.png">
+                    <img class="star-filled" alt="Star" src="images/star-filled.png">
+                    <img class="star-unfilled" alt="Star Unfilled" src="images/star-unfilled.png">
+                </div>
+                 <img class="favourite" src="images/favourite.png" alt="Favourite Icon">
+            </div>
+            <!-- Each lease Item -->
+            <div class="row list-item">
+                <div class="col-xs-3 image-div">
+                    <img src="images/carparks/empty-lot.jpg" alt="carpark image">
+                </div>
+                <div class="col-xs-9 list-text">
+                    <p class="park-owner">Jo Smith</p>
+                    <p class="park-description">Cheap parking super close to the city</p>
+                    <p class="park-price">$20</p>
+                    <img class="star-filled" alt="Star" src="images/star-filled.png">
+                    <img class="star-filled" alt="Star" src="images/star-filled.png">
+                    <img class="star-filled" alt="Star" src="images/star-filled.png">
+                    <img class="star-filled" alt="Star" src="images/star-filled.png">
+                    <img class="star-unfilled" alt="Star Unfilled" src="images/star-unfilled.png">
+                </div>
+                    <img class="favourite" src="images/favourite.png" alt="Favourite Icon">
+                </div>
             </div>
         </div>
 
