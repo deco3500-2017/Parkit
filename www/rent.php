@@ -243,7 +243,8 @@
                         <p class="park-availability">Monday: All Day</p>
                         <p class="park-availability">Tuesday: All Day</p>
                     </div>
-                </div>                              
+                </div> 
+                <button onclick="loadNewParks()" class="btn btn-default center-block">Add New Parks</button>                             
             </div>
         </div>
 
@@ -394,50 +395,50 @@
 
         <!-- Lease Summary-->
         <div class="row" id="lease-summary">
- <div class="col-xs-10 col-xs-offset-1 sub-menu-container">
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th>Date</th>
-                            <th>Address</th>
-                            <th>Time</th>
-                            <th>Rate</th>
-                            <th>Total</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>23/10/17</td>
-                            <td>12 West St</td>
-                            <td>1hrs</td>  
-                            <td>$2/hour</td>   
-                            <td>$2</td>                     
-                        </tr>
-                         <tr>
-                            <td>12/10/17</td>
-                            <td>12 West St</td>
-                            <td>2hrs</td>  
-                            <td>$3/hour</td>   
-                            <td>$6</td>                     
-                        </tr>
-                         <tr>
-                            <td>11/10/17</td>
-                            <td>122 Park Ave</td>
-                            <td>4hrs</td>  
-                            <td>$5/hour</td>   
-                            <td>$20</td>                     
-                        </tr>
-                         <tr>
-                            <td>30/9/17</td>
-                            <td>7 Eagle St</td>
-                            <td>2hrs</td>  
-                            <td>$2/hour</td>   
-                            <td>$4</td>                     
-                        </tr>
-                    </tbody>
-                </table>
+            <div class="col-xs-10 col-xs-offset-1 sub-menu-container">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>Address</th>
+                                <th>Time</th>
+                                <th>Rate</th>
+                                <th>Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>23/10/17</td>
+                                <td>12 West St</td>
+                                <td>1hrs</td>  
+                                <td>$2/hour</td>   
+                                <td>$2</td>                     
+                            </tr>
+                            <tr>
+                                <td>12/10/17</td>
+                                <td>12 West St</td>
+                                <td>2hrs</td>  
+                                <td>$3/hour</td>   
+                                <td>$6</td>                     
+                            </tr>
+                            <tr>
+                                <td>11/10/17</td>
+                                <td>122 Park Ave</td>
+                                <td>4hrs</td>  
+                                <td>$5/hour</td>   
+                                <td>$20</td>                     
+                            </tr>
+                            <tr>
+                                <td>30/9/17</td>
+                                <td>7 Eagle St</td>
+                                <td>2hrs</td>  
+                                <td>$2/hour</td>   
+                                <td>$4</td>                     
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
-        </div>
 
         <!-- Payment Details -->
         <div class="row" id="about">

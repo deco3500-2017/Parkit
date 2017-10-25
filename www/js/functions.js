@@ -131,7 +131,7 @@ function loadNewParks(){
         hideMainDivs();
         hideMenuDivs();
         document.getElementById("sub-menu").style.display = "block";
-        document.getElementById("sub-menu-title").innerHTML = "Add Car";
+        document.getElementById("sub-menu-title").innerHTML = "Add Park";
         document.getElementById("add-park").style.display = "block";
 }
 function loadCredit(){

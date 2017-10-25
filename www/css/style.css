@@ -285,6 +285,7 @@ input[type="number"] {
 
 #add-debit-card{
 	margin-top: 15px;
+	display: none;
 }
 
 .btn-file{
