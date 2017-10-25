@@ -2,6 +2,10 @@
 Team Dominators - Parkit.
 
 * * *
+Partit Zone - Link to Project:
+parkit.uqcloud.net/rent.php
+
+* * *
 High Fidelity Mockup - Link to Project:
 https://projects.invisionapp.com/share/Y4E3RLLFB
 
