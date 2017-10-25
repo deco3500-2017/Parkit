@@ -3,7 +3,7 @@ Team Dominators - Parkit.
 
 * * *
 Partit Zone - Link to Project:
-parkit.uqcloud.net/rent.php
+https://parkit.uqcloud.net/rent.php
 
 * * *
 High Fidelity Mockup - Link to Project:
