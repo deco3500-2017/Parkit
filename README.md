@@ -14,9 +14,7 @@ Marketing Brocehure:
 https://github.com/deco3500-2017/Parkit/blob/master/Marketing%20Brochure.pdf
 
 * * *
-
-Stand Up 1 Documentation:
-https://docs.google.com/document/d/1Bii7ALeAO7DhiQbKRlru_QoWlBiBJ0xT5m2G_RwKEFM/edit
+Partit High-Fidelity Files: https://github.com/deco3500-2017/Parkit/tree/master/High%20Fid%20PDF
 
 * * *
 Parkit Survey Link:
