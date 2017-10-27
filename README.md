@@ -15,7 +15,7 @@ http://uqbel.az1.qualtrics.com/jfe/form/SV_79dmQyZnRtcxhXL
 
 			
 
- Freya Rogers		 #s4333056
+Freya Rogers		 #s4333056
 
 Sam Russ		#s4428148
 
@@ -123,7 +123,7 @@ Team Dominators comprises of the following roles:
 
 Design		Freya Rogers and Samuel Russ.
 
-Content	Alexander Sarafian.
+Content	    Alexander Sarafian.
 
 Front End	Jarrod Stone and Samuel Russ.
 
