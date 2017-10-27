@@ -10,6 +10,9 @@ High Fidelity Mockup - Link to Project:
 https://projects.invisionapp.com/share/Y4E3RLLFB
 
 * * *
+Promotional Material: https://github.com/deco3500-2017/Parkit/blob/master/Promotinoal%20Material/Poster_Final.pdf
+
+* * *
 Marketing Brochure: 
 https://github.com/deco3500-2017/Parkit/blob/master/Marketing%20Brochure.pdf
 
