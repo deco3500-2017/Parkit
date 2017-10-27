@@ -10,7 +10,7 @@ High Fidelity Mockup - Link to Project:
 https://projects.invisionapp.com/share/Y4E3RLLFB
 
 * * *
-Marketing Brocehure: 
+Marketing Brochure: 
 https://github.com/deco3500-2017/Parkit/blob/master/Marketing%20Brochure.pdf
 
 * * *
