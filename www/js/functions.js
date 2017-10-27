@@ -8,7 +8,7 @@ function loadRegistration(){
 function loadThanks(){
     document.getElementById("registration-container").style.display = "none";
     document.getElementById("thanks-container").style.display = "block";
-    setTimeout(loadOptions, 3000);
+    setTimeout(mapRedirect, 3000);
 }
 
 /* Hides login page & Loads the registration form */
@@ -73,6 +73,10 @@ function hideMenuDivs(){
     document.getElementById("payment-details").style.display = "none";
     document.getElementById("lease-summary").style.display = "none";
     document.getElementById("add-car").style.display = "none";
+    document.getElementById("add-park").style.display = "none";
+    document.getElementById("add-credit-card").style.display = "none";
+    document.getElementById("add-debit-card").style.display = "none";
+    document.getElementById("about").style.display = "none";
 }
 
 /* Loads the favourites 'page' */
@@ -121,12 +125,21 @@ function loadParks(){
     document.getElementById("your-parks").style.display = "block";
 }
 
+
+function loadNewParks(){
+        /* Hides the other content */
+        hideMainDivs();
+        hideMenuDivs();
+        document.getElementById("sub-menu").style.display = "block";
+        document.getElementById("sub-menu-title").innerHTML = "Add Park";
+        document.getElementById("add-park").style.display = "block";
+}
 function loadCredit(){
     /* Hides the other content */
     hideMainDivs();
     hideMenuDivs();
     document.getElementById("sub-menu").style.display = "block";
-    document.getElementById("sub-menu-title").innerHTML = "Credit Card Details";
+    document.getElementById("sub-menu-title").innerHTML = "Credit Details";
     document.getElementById("credit-details").style.display = "block";
 }
 
@@ -146,4 +159,29 @@ function loadLease(){
     document.getElementById("sub-menu").style.display = "block";
     document.getElementById("sub-menu-title").innerHTML = "Lease Summary";
     document.getElementById("lease-summary").style.display = "block";
+}
+
+function loadAbout(){
+    /* Hides the other content */
+    hideMainDivs();
+    hideMenuDivs();
+    document.getElementById("sub-menu").style.display = "block";
+    document.getElementById("sub-menu-title").innerHTML = "About Us";
+    document.getElementById("about").style.display = "block";
+}
+
+function addCard(){
+    hideMainDivs();
+    hideMenuDivs();
+    document.getElementById("sub-menu").style.display = "block";
+    document.getElementById("sub-menu-title").innerHTML = "Add Card";
+    document.getElementById("add-credit-card").style.display = "block";
+}
+
+function addPayment(){
+    hideMainDivs();
+    hideMenuDivs();
+    document.getElementById("sub-menu").style.display = "block";
+    document.getElementById("sub-menu-title").innerHTML = "Add Card";
+    document.getElementById("add-debit-card").style.display = "block";
 }

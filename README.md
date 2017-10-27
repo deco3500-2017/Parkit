@@ -2,8 +2,19 @@
 Team Dominators - Parkit.
 
 * * *
-Stand Up 1 Documentation:
-https://docs.google.com/document/d/1Bii7ALeAO7DhiQbKRlru_QoWlBiBJ0xT5m2G_RwKEFM/edit
+Partit Zone - Link to Project:
+https://parkit.uqcloud.net/rent.php
+
+* * *
+High Fidelity Mockup - Link to Project:
+https://projects.invisionapp.com/share/Y4E3RLLFB
+
+* * *
+Marketing Brochure: 
+https://github.com/deco3500-2017/Parkit/blob/master/Marketing%20Brochure.pdf
+
+* * *
+Partit High-Fidelity Files: https://github.com/deco3500-2017/Parkit/tree/master/High%20Fid%20PDF
 
 * * *
 Parkit Survey Link:
